@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#173d36"><meta name="description" content="Explore Computational Linguistics courses at the University of Tübingen. A weekly timetable for winter semester 2026/27, with modules, credits and German room names.">
 <title>Course Atlas · Tübingen 2026/27</title>
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
-<script src="data.js" defer></script><script src="app.js?v=20261018-multi-tutorial" defer></script>
+<script src="data.js" defer></script><script src="app.js?v=20261018-calendar-no-alerts" defer></script>
 </head>
 <body>
 <header class="masthead"><a class="brand" href="./" aria-label="Course Atlas home"><span class="brand-mark" aria-hidden="true">ca<span>✳</span></span><span>COURSE ATLAS<small>TÜBINGEN · WINTER 2026/27</small></span></a><nav aria-label="Page tools"><span class="semester-label">19 OCT — 19 FEB</span><button id="share" class="button quiet">↗ <span>Share view</span></button><button id="export" class="button dark">↓ <span>Export calendar</span></button></nav></header>
@@ -23,6 +23,6 @@
 <footer class="main-footer"><span>Built for finding your next course.</span><span>Local time: Europe/Berlin </span></footer>
 </main></div>
 <dialog id="detail-dialog"><button class="dialog-close icon-button" aria-label="Close course details">×</button><div id="detail-content"></div></dialog>
-<dialog id="export-dialog"><button class="dialog-close icon-button" aria-label="Close export options">×</button><span class="eyebrow">TAKE YOUR TIMETABLE WITH YOU</span><h2>From browser to calendar.</h2><p id="export-summary"></p><button class="export-option" id="export-zip"><span class="export-symbol">▦</span><span><strong>Keep course colours</strong><small>ZIP with one .ics calendar per course. In Apple Calendar, import each into a new calendar.</small></span><span>↓</span></button><button class="export-option" id="export-ics"><span class="export-symbol">▤</span><span><strong>One calendar file</strong><small>All matching meetings in a single .ics. The destination calendar controls the colour.</small></span><span>↓</span></button><p class="export-note">Exports include the whole semester and respect your course and session filters. German locations, credits and lecturers are included.</p></dialog>
+<dialog id="export-dialog"><button class="dialog-close icon-button" aria-label="Close export options">×</button><span class="eyebrow">TAKE YOUR TIMETABLE WITH YOU</span><h2>From browser to calendar.</h2><p id="export-summary"></p><button class="export-option" id="export-ics"><span class="export-symbol">▤</span><span><strong>Download calendar (.ics)</strong><small>Course names, class times and original German locations.</small></span><span>↓</span></button><p class="export-note">Includes the whole semester and your chosen tutorial groups. Known cancellations are excluded.</p></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 </body></html>

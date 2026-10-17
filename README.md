@@ -22,9 +22,7 @@ For updates, replace the corresponding static files in the same repository. The 
 
 ## Calendar exports
 
-The visitor can download one combined `.ics` or a ZIP of individual course calendars. A separate Apple Calendar calendar for each course preserves colours. Exports cover the whole semester, respecting the active course/type filters, and chosen tutorial groups in My timetable. Stable UIDs match the earlier calendar exports, and the revision is incremented. DST is converted with Europe/Berlin rules. No personal calendar data is included.
-
-This is an independent student timetable, not an official university service. It does not automatically synchronize with ALMA. The displayed last-updated date and course source links make this explicit.
+One combined `.ics` contains course names, times and original German locations, without default reminders. Regular sessions use weekly recurrence with exceptions for cancelled dates. Irregular times and block sessions remain separate as needed. The export covers the semester and respects filters and positively selected tutorial groups in My timetable. Modules, credits, lecturers and source links remain available on the website rather than in calendar descriptions. No personal calendar data is included.
 
 ## Course selection
 

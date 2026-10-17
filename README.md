@@ -4,7 +4,7 @@ A static, privacy-friendly timetable for winter semester 2026/27. All 33 courses
 
 ## Preview
 
-Serve `dist/` with any static web server. No installation or build is needed. All course data is bundled; there are no external fonts, tracking scripts, sign-ins, or API keys. Saved choices remain in each visitor's browser. Share view links include the chosen week, filters and, in My timetable, the selected courses and hidden tutorial groups.
+Serve `dist/` with any static web server. No installation or build is needed. All course data is bundled; there are no external fonts, tracking scripts, sign-ins, or API keys. Saved choices remain in each visitor's browser. Share view links include the chosen week, filters and, in My timetable, the selected courses and chosen tutorial groups.
 
 ## Publish on GitHub Pages
 
@@ -22,6 +22,10 @@ For updates, replace the corresponding static files in the same repository. The 
 
 ## Calendar exports
 
-The visitor can download one combined `.ics` or a ZIP of individual course calendars. A separate Apple Calendar calendar for each course preserves colours. Exports cover the whole semester, respecting the active course/type filters, and hidden tutorial groups in My timetable. Stable UIDs match the earlier calendar exports, and the revision is incremented. DST is converted with Europe/Berlin rules. No personal calendar data is included.
+The visitor can download one combined `.ics` or a ZIP of individual course calendars. A separate Apple Calendar calendar for each course preserves colours. Exports cover the whole semester, respecting the active course/type filters, and chosen tutorial groups in My timetable. Stable UIDs match the earlier calendar exports, and the revision is incremented. DST is converted with Europe/Berlin rules. No personal calendar data is included.
 
 This is an independent student timetable, not an official university service. It does not automatically synchronize with ALMA. The displayed last-updated date and course source links make this explicit.
+
+## Course selection
+
+Saving a course adds every non-tutorial session, with no tutorials preselected. Choosing a tutorial adds all non-tutorial sessions automatically. One tutorial group is selected by default; choosing another replaces it. The course details offer an explicit option for two groups. Alternatives remain visible as highlighted choices or dimmed cards, but are not counted or exported unless selected. Saved selections and share links store positive tutorial choices. Legacy saved courses are retained, but their tutorials must be chosen again. Modules with identical credit options are grouped together, with BA and MA codes on separate lines and the credit options displayed once. Different credit options remain separate.

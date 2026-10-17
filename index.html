@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d36"><meta name="description" content="Explore Computational Linguistics courses at the University of Tübingen. A weekly timetable for winter semester 2026/27, with modules, credits and German room names.">
+<title>Course Atlas · Tübingen 2026/27</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<header class="masthead"><a class="brand" href="./" aria-label="Course Atlas home"><span class="brand-mark" aria-hidden="true">ca<span>✳</span></span><span>COURSE ATLAS<small>TÜBINGEN · WINTER 2026/27</small></span></a><nav aria-label="Page tools"><span class="semester-label">19 OCT — 19 FEB</span><button id="share" class="button quiet">↗ <span>Share view</span></button><button id="export" class="button dark">↓ <span>Export calendar</span></button></nav></header>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar"><div class="sidebar-top"><span class="eyebrow">MAKE ROOM FOR CURIOSITY</span><h1>Your semester,<br>at a glance.</h1><p>A little less clicking.<br>A little more course exploring.</p></div>
+<label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Course, lecturer, module…" aria-label="Search course, lecturer or module"><kbd>/</kbd></label>
+<div class="filter-grid"><label>Programme<select id="programme"><option value="">All programmes</option><option value="BA">Bachelor’s (BA)</option><option value="MA">Master’s (MA)</option></select></label><label>Module<select id="module"><option value="">All modules</option></select></label><label>Session type<select id="kind"><option value="">All sessions</option><option>Seminar</option><option>Advanced Seminar</option><option>Tutorial</option><option>Lecture</option><option>Internship</option></select></label></div>
+<div class="course-list-heading"><h2>Courses <span id="course-count">33</span></h2><button id="reset" class="text-button">Reset filters</button></div>
+<p class="selection-tip">Use + to save courses to your timetable.</p><div id="course-list" class="course-list"></div>
+<div class="sidebar-footer"><span class="updated-dot"></span> Updated 17 Oct 2026<br><p>Independent student timetable. Check ALMA for changes.</p><div class="file-links"><a href="assets/ALMA_Weekly_Timetable.xlsx" download>Excel ↗</a><a href="assets/ALMA_Weekly_Timetable.numbers" download>Numbers ↗</a></div></div></aside>
+<main id="main"><div class="view-top"><div class="tabs" role="tablist" aria-label="Timetable scope"><button class="active" role="tab" aria-selected="true" id="all-tab">Explore all</button><button role="tab" aria-selected="false" id="my-tab">My timetable <span id="saved-count">0</span></button></div><button class="button filter-toggle" id="filters-toggle" aria-expanded="false" aria-controls="sidebar">☷ Filters & courses</button><div class="display-toggle" aria-label="Display"><button id="week-view" aria-pressed="true" class="active">Week</button><button id="agenda-view" aria-pressed="false">Agenda</button></div></div>
+<section class="week-toolbar" aria-label="Week navigation"><div><span class="eyebrow" id="week-number">TEACHING WEEK 01</span><h2 id="week-title"></h2><p id="week-subtitle"></p></div><div class="week-actions"><button class="icon-button" id="prev" aria-label="Previous week">←</button><button id="current-week" class="button quiet">This week</button><label class="week-select-label"><span class="sr-only">Choose week</span><select id="week-select"></select></label><button class="icon-button" id="next" aria-label="Next week">→</button></div></section>
+<div class="context-bar"><span id="result-info"></span><span id="context-note">Overlaps are shown side by side. Choose one tutorial group.</span></div>
+<div id="schedule" aria-live="polite"></div>
+<footer class="main-footer"><span>Built for finding your next course.</span><span>Local time: Europe/Berlin · Rooms in original German</span></footer>
+</main></div>
+<dialog id="detail-dialog"><button class="dialog-close icon-button" aria-label="Close course details">×</button><div id="detail-content"></div></dialog>
+<dialog id="export-dialog"><button class="dialog-close icon-button" aria-label="Close export options">×</button><span class="eyebrow">TAKE YOUR TIMETABLE WITH YOU</span><h2>From browser to calendar.</h2><p id="export-summary"></p><button class="export-option" id="export-zip"><span class="export-symbol">▦</span><span><strong>Keep course colours</strong><small>ZIP with one .ics calendar per course. In Apple Calendar, import each into a new calendar.</small></span><span>↓</span></button><button class="export-option" id="export-ics"><span class="export-symbol">▤</span><span><strong>One calendar file</strong><small>All matching meetings in a single .ics. The destination calendar controls the colour.</small></span><span>↓</span></button><p class="export-note">Exports include the whole semester and respect your course and session filters. German locations, credits and lecturers are included.</p></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

@@ -1,6 +1,10 @@
 'use strict';
 const D=window.TIMETABLE_DATA, $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const courses=new Map(D.courses.map(c=>[c.id,c]));
+const updatedAt=new Date(D.updated);
+$('#data-updated').textContent='Updated '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Europe/Berlin',timeZoneName:'short'}).format(updatedAt);
+$('#data-updated').setAttribute('datetime',D.updated);
+
 const DAY=86400000, parse=s=>new Date(s+'T12:00:00Z'), iso=d=>d.toISOString().slice(0,10), add=(s,n)=>iso(new Date(parse(s).getTime()+n*DAY));
 const fmt=(s,opts={day:'numeric',month:'short'})=>new Intl.DateTimeFormat('en-GB',{...opts,timeZone:'UTC'}).format(parse(s));
 const esc=s=>String(s??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));

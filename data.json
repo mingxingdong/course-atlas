@@ -2120,7 +2120,7 @@
           "last": "2027-02-05"
         }
       ],
-      "note": "Specific dates only: 20 and 27 Nov 09:00–11:00; 08 and 29 Jan, 05 Feb 09:00–12:00 (course description).",
+      "note": "Specific dates only: 20 and 27 Nov 2026; 08 and 29 Jan, 05 Feb 2027. All sessions 09:00–12:00 (ALMA appointment table).",
       "color": "#d3e0ee"
     },
     {
@@ -11861,7 +11861,7 @@
       "series": 1,
       "date": "2026-11-20",
       "start": "09:00",
-      "end": "11:00",
+      "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Prof. Dr. phil. Lea Frermann",
       "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
@@ -11872,7 +11872,7 @@
       "series": 1,
       "date": "2026-11-27",
       "start": "09:00",
-      "end": "11:00",
+      "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Prof. Dr. phil. Lea Frermann",
       "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
@@ -15784,5 +15784,5 @@
       "lastRow": 79
     }
   ],
-  "updated": "2026-10-18"
+  "updated": "2026-10-18T13:46+02:00"
 }

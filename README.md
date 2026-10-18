@@ -31,3 +31,9 @@ Saving a course adds every non-tutorial session, with no tutorials preselected. 
 ## Personal timetable conflicts
 
 My timetable places overlapping selected sessions in separate horizontal lanes. Exact start/end times determine overlap, including partial overlaps; back-to-back sessions are separate. Week and agenda layouts both use these lanes. Day columns stay equally wide. Overlapping courses share their day column equally; personal course cards have a fixed height and truncate overflowing text with ellipses. Open a card to read the full details. Explore all retains its existing stacked layout.
+
+## Sidebar
+
+Filters and the course list are visible on first visit. The Hide button inside the sidebar expands the timetable to the full page width. A small arrow on the left page edge appears when filters are hidden and restores the sidebar. The browser remembers the visibility choice. The / search shortcut reveals filters before focusing search.
+
+Personal cards keep the session type beside the time. Course titles receive space first; room and teacher are shown on one line each when the remaining card height permits. Overflowing secondary text uses ellipses; full information remains in course details.

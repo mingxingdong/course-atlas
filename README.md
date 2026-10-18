@@ -1,6 +1,6 @@
 # Course Atlas · Tübingen
 
-A static, privacy-friendly timetable for winter semester 2026/27. All 33 courses and 678 meetings from the finalized timetable are included. Locations use their original German names. The user-confirmed Discrete Methods and Logic seminar corrections are applied.
+A static, privacy-friendly timetable for winter semester 2026/27. The timetable includes 35 courses and 732 meetings, including the two module-associated MA-only courses. ASW MA module memberships are included for all 24 courses listed in the General Linguistics MA catalogue. Locations use their original German names. The user-confirmed Discrete Methods and Logic seminar corrections are applied.
 
 ## Preview
 
@@ -26,4 +26,8 @@ One combined `.ics` contains course names, times and original German locations, 
 
 ## Course selection
 
-Saving a course adds every non-tutorial session, with no tutorials preselected. Choosing a tutorial adds all non-tutorial sessions automatically. Tutorial groups can be selected independently, with no group limit. Clicking a selected tutorial removes only that group. Alternatives remain visible as highlighted choices or dimmed cards, but are not counted or exported unless selected. Saved selections and share links store positive tutorial choices. Legacy saved courses are retained, but their tutorials must be chosen again. Modules with identical credit options are grouped together, with BA and MA codes on separate lines and the credit options displayed once. Different credit options remain separate.
+Saving a course adds every non-tutorial session, with no tutorials preselected. Choosing a tutorial adds all non-tutorial sessions automatically. Tutorial groups can be selected independently, with no group limit. Clicking a selected tutorial removes only that group. Alternatives remain visible as highlighted choices or dimmed cards, but are not counted or exported unless selected. Saved selections and share links store positive tutorial choices. Legacy saved courses are retained, but their tutorials must be chosen again. Modules with identical credit options are grouped together in details, with all full module codes joined by slashes and the credit options displayed once. Timetable cards abbreviate repeated prefixes, for example ASW-BA-02/08/10, and keep different prefixes separate. Different credit options remain separate.
+
+## Personal timetable conflicts
+
+My timetable places overlapping selected sessions in separate horizontal lanes. Exact start/end times determine overlap, including partial overlaps; back-to-back sessions are separate. Week and agenda layouts both use these lanes. Day columns stay equally wide. Overlapping courses share their day column equally; personal course cards have a fixed height and truncate overflowing text with ellipses. Open a card to read the full details. Explore all retains its existing stacked layout.

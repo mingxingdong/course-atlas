@@ -231,11 +231,23 @@
       "name": "Methods I - Programming and Data Analysis",
       "type": "Seminar",
       "modules": [
-        "ASW-BA-03"
+        "ASW-BA-03",
+        "ASW-MA-01"
       ],
       "creditOptions": [
         {
           "code": "ASW-BA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-01",
           "options": [
             {
               "qualifier": "",
@@ -679,7 +691,11 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2"
       ],
       "creditOptions": [
         {
@@ -778,6 +794,56 @@
                 3,
                 6,
                 9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
               ]
             }
           ]
@@ -822,7 +888,15 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -954,6 +1028,124 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -996,7 +1188,16 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -1128,6 +1329,141 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -1189,7 +1525,11 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2"
       ],
       "creditOptions": [
         {
@@ -1288,6 +1628,56 @@
                 3,
                 6,
                 9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
               ]
             }
           ]
@@ -1328,7 +1718,9 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-06"
       ],
       "creditOptions": [
         {
@@ -1423,6 +1815,32 @@
             },
             {
               "qualifier": "Graded",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
               "points": [
                 3,
                 6,
@@ -1486,7 +1904,11 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-06",
+        "ASW-MA-05",
+        "ASW-MA-06"
       ],
       "creditOptions": [
         {
@@ -1602,6 +2024,66 @@
                 3,
                 6,
                 9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
               ]
             }
           ]
@@ -1651,7 +2133,14 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06"
       ],
       "creditOptions": [
         {
@@ -1770,6 +2259,107 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=111953&periodId=237&navigationPosition=courseoverviewShow",
@@ -1809,7 +2399,15 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-03",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06"
       ],
       "creditOptions": [
         {
@@ -1925,6 +2523,124 @@
                 3,
                 6,
                 9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
               ]
             }
           ]
@@ -1978,7 +2694,16 @@
         "ISCL-MA-01",
         "ISCL-MA-02",
         "ISCL-MA-03",
-        "ISCL-MA-05"
+        "ISCL-MA-05",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2097,6 +2822,141 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101789&periodId=237&navigationPosition=courseoverviewShow",
@@ -2129,7 +2989,8 @@
       "name": "Syntax and Semantics",
       "type": "Seminar",
       "modules": [
-        "ASW-BA-05"
+        "ASW-BA-05",
+        "ASW-MA-01"
       ],
       "creditOptions": [
         {
@@ -2145,6 +3006,17 @@
               "qualifier": "Tutorial",
               "points": [
                 3
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-01",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
               ]
             }
           ]
@@ -2276,7 +3148,12 @@
         "ASW-BA-08",
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-06",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06"
       ],
       "creditOptions": [
         {
@@ -2349,6 +3226,77 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=77674&periodId=237&navigationPosition=courseoverviewShow",
@@ -2384,7 +3332,19 @@
       "modules": [
         "ASW-BA-08",
         "ASW-BA-09",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2436,6 +3396,192 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -2487,7 +3633,14 @@
       "modules": [
         "ASW-BA-08",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-04",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2543,6 +3696,107 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=95851&periodId=237&navigationPosition=courseoverviewShow",
@@ -2577,7 +3831,20 @@
       "type": "Advanced Seminar",
       "modules": [
         "ASW-BA-08",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2612,6 +3879,209 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -2653,7 +4123,19 @@
         "ASW-BA-08",
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2726,6 +4208,192 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101566&periodId=237&navigationPosition=courseoverviewShow",
@@ -2760,7 +4428,18 @@
       "modules": [
         "ASW-BA-08",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2812,6 +4491,175 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -2851,7 +4699,21 @@
         "ASW-BA-08",
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -2920,6 +4782,226 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -2961,7 +5043,21 @@
         "ASW-BA-08",
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -3034,6 +5130,226 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101586&periodId=237&navigationPosition=courseoverviewShow",
@@ -3068,7 +5384,16 @@
       "modules": [
         "ASW-BA-08",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -3120,6 +5445,141 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -3159,7 +5619,22 @@
       "modules": [
         "ASW-BA-08",
         "ASW-BA-09",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-04",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -3215,6 +5690,243 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101630&periodId=237&navigationPosition=courseoverviewShow",
@@ -3250,7 +5962,21 @@
       "modules": [
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -3306,6 +6032,226 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=59700&periodId=237&navigationPosition=courseoverviewShow",
@@ -3339,7 +6285,12 @@
       "type": "Advanced Seminar",
       "modules": [
         "ASW-BA-09",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02"
       ],
       "creditOptions": [
         {
@@ -3375,6 +6326,73 @@
                 3,
                 6,
                 9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
               ]
             }
           ]
@@ -3413,7 +6431,19 @@
       "modules": [
         "ASW-BA-09",
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10"
       ],
       "creditOptions": [
         {
@@ -3465,6 +6495,192 @@
               "points": [
                 3,
                 6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
                 9
               ]
             }
@@ -3503,7 +6719,19 @@
       "type": "Advanced Seminar",
       "modules": [
         "ASW-BA-09",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-02",
+        "ASW-MA-03",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10"
       ],
       "creditOptions": [
         {
@@ -3542,6 +6770,192 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-03",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101588&periodId=237&navigationPosition=courseoverviewShow",
@@ -3576,7 +6990,19 @@
       "type": "Advanced Seminar",
       "modules": [
         "ASW-BA-10",
-        "ISCL-MA-02"
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2",
+        "ASW-MA-05",
+        "ASW-MA-06",
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12"
       ],
       "creditOptions": [
         {
@@ -3615,6 +7041,192 @@
               ]
             }
           ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-05",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-06",
+          "options": [
+            {
+              "qualifier": "Graded",
+              "points": [
+                6
+              ]
+            },
+            {
+              "qualifier": "Project",
+              "points": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=88282&periodId=237&navigationPosition=courseoverviewShow",
@@ -3642,6 +7254,370 @@
       ],
       "note": "",
       "color": "#e7f6cb"
+    },
+    {
+      "id": "45442",
+      "name": "Linguistics for Cognitive Science",
+      "type": "Advanced Seminar",
+      "color": "#d3c3ed",
+      "modules": [
+        "ASW-MA-07",
+        "ASW-MA-08",
+        "ASW-MA-09",
+        "ASW-MA-10",
+        "ASW-MA-11",
+        "ASW-MA-12",
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2"
+      ],
+      "creditOptions": [
+        {
+          "code": "ASW-MA-07",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-08",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-09",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-10",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-11",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ASW-MA-12",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3
+              ]
+            },
+            {
+              "qualifier": "Graded, Project",
+              "points": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45442&periodId=237&navigationPosition=courseoverviewShow",
+      "series": [
+        {
+          "n": 1,
+          "kind": "Advanced Seminar",
+          "teacher": "Prof. Dr. phil. Harald Baayen",
+          "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+          "from": "2026-10-21",
+          "to": "2027-02-03",
+          "start": "14:00",
+          "end": "16:00",
+          "weekday": 3,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1797984000000,
+            1798588800000,
+            1799193600000
+          ],
+          "first": "2026-10-21",
+          "last": "2027-02-03"
+        },
+        {
+          "n": 2,
+          "kind": "Advanced Seminar",
+          "teacher": "Prof. Dr. phil. Harald Baayen",
+          "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+          "from": "2026-10-22",
+          "to": "2027-02-04",
+          "start": "14:00",
+          "end": "16:00",
+          "weekday": 4,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1798070400000,
+            1798675200000
+          ],
+          "first": "2026-10-22",
+          "last": "2027-02-04"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "101458",
+      "name": "Adaptive Teaching and Learning",
+      "type": "Seminar",
+      "color": "#f2d2a2",
+      "modules": [
+        "ISCL-MA-02",
+        "ISCL-MA-04",
+        "ISCL-MA-04.2",
+        "ISCL-MA-06",
+        "ISCL-MA-06.2"
+      ],
+      "creditOptions": [
+        {
+          "code": "ISCL-MA-02",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6
+              ]
+            },
+            {
+              "qualifier": "Graded",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-04.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06",
+          "options": [
+            {
+              "qualifier": "",
+              "points": [
+                3,
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ISCL-MA-06.2",
+          "options": [
+            {
+              "qualifier": "Ungraded",
+              "points": [
+                3,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "url": "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101458&periodId=237&navigationPosition=courseoverviewShow",
+      "series": [
+        {
+          "n": 1,
+          "kind": "Seminar",
+          "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+          "room": "Seminarraum 18 (Metropol)",
+          "from": "2026-10-19",
+          "to": "2027-02-01",
+          "start": "10:00",
+          "end": "12:00",
+          "weekday": 1,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1798416000000,
+            1799020800000
+          ],
+          "first": "2026-10-19",
+          "last": "2027-02-01"
+        },
+        {
+          "n": 2,
+          "kind": "Seminar",
+          "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+          "room": "Seminarraum 18 (Metropol)",
+          "from": "2026-10-21",
+          "to": "2027-02-03",
+          "start": "10:00",
+          "end": "12:00",
+          "weekday": 3,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1797984000000,
+            1798588800000,
+            1799193600000
+          ],
+          "first": "2026-10-21",
+          "last": "2027-02-03"
+        }
+      ],
+      "note": ""
     }
   ],
   "events": [
@@ -11102,67 +15078,661 @@
       "teacher": "Dr. habil. Güliz Güneş",
       "room": "Seminarraum 035 (Neuphilologicum)",
       "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-10-21",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-10-28",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-11-04",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-11-11",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-11-18",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-11-25",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-12-02",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-12-09",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2026-12-16",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2027-01-13",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2027-01-20",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2027-01-27",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 1,
+      "date": "2027-02-03",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-10-22",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-10-29",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-11-05",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-11-12",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-11-19",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-11-26",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-12-03",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-12-10",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2026-12-17",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2027-01-07",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2027-01-14",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2027-01-21",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2027-01-28",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45442",
+      "series": 2,
+      "date": "2027-02-04",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Advanced Seminar",
+      "teacher": "Prof. Dr. phil. Harald Baayen",
+      "room": "Hörsaal 7 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-10-19",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-10-26",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-11-02",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-11-09",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-11-16",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-11-23",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-11-30",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-12-07",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-12-14",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2026-12-21",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2027-01-11",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2027-01-18",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2027-01-25",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 1,
+      "date": "2027-02-01",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-10-21",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-10-28",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-11-04",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-11-11",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-11-18",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-11-25",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-12-02",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-12-09",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2026-12-16",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2027-01-13",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2027-01-20",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2027-01-27",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
+    },
+    {
+      "courseId": "101458",
+      "series": 2,
+      "date": "2027-02-03",
+      "start": "10:00",
+      "end": "12:00",
+      "kind": "Seminar",
+      "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
+      "room": "Seminarraum 18 (Metropol)",
+      "modifier": ""
     }
   ],
   "weeks": [
     {
       "name": "19 Oct",
       "monday": "2026-10-19",
-      "events": 45,
+      "events": 49,
       "lastRow": 369
     },
     {
       "name": "26 Oct",
       "monday": "2026-10-26",
-      "events": 47,
+      "events": 51,
       "lastRow": 369
     },
     {
       "name": "02 Nov",
       "monday": "2026-11-02",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "09 Nov",
       "monday": "2026-11-09",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "16 Nov",
       "monday": "2026-11-16",
-      "events": 49,
+      "events": 53,
       "lastRow": 422
     },
     {
       "name": "23 Nov",
       "monday": "2026-11-23",
-      "events": 49,
+      "events": 53,
       "lastRow": 422
     },
     {
       "name": "30 Nov",
       "monday": "2026-11-30",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "07 Dec",
       "monday": "2026-12-07",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "14 Dec",
       "monday": "2026-12-14",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "21 Dec",
       "monday": "2026-12-21",
-      "events": 22,
+      "events": 23,
       "lastRow": 339
     },
     {
@@ -11174,31 +15744,31 @@
     {
       "name": "04 Jan",
       "monday": "2027-01-04",
-      "events": 16,
+      "events": 17,
       "lastRow": 338
     },
     {
       "name": "11 Jan",
       "monday": "2027-01-11",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "18 Jan",
       "monday": "2027-01-18",
-      "events": 48,
+      "events": 52,
       "lastRow": 385
     },
     {
       "name": "25 Jan",
       "monday": "2027-01-25",
-      "events": 49,
+      "events": 53,
       "lastRow": 422
     },
     {
       "name": "01 Feb",
       "monday": "2027-02-01",
-      "events": 49,
+      "events": 53,
       "lastRow": 422
     },
     {
@@ -11214,5 +15784,5 @@
       "lastRow": 79
     }
   ],
-  "updated": "2026-10-17"
+  "updated": "2026-10-18"
 }

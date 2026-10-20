@@ -246,6 +246,65 @@
           "canceled": [1798416000000, 1799020800000],
           "first": "2026-10-26",
           "last": "2027-02-01"
+        },
+        {
+          "n": 3,
+          "kind": "Tutorial",
+          "teacher": "N.N.",
+          "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+          "from": "2026-10-21",
+          "to": "2027-02-03",
+          "start": "12:00",
+          "end": "14:00",
+          "weekday": 3,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1797984000000,
+            1798588800000,
+            1799193600000
+          ],
+          "first": "2026-10-21",
+          "last": "2027-02-03"
+        },
+        {
+          "n": 4,
+          "kind": "Tutorial",
+          "teacher": "N.N.",
+          "room": "Hörsaal 14 (Neue Aula)",
+          "from": "2026-10-21",
+          "to": "2027-02-03",
+          "start": "14:00",
+          "end": "16:00",
+          "weekday": 3,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1797984000000,
+            1798588800000,
+            1799193600000
+          ],
+          "first": "2026-10-21",
+          "last": "2027-02-03"
+        },
+        {
+          "n": 5,
+          "kind": "Tutorial",
+          "teacher": "N.N.",
+          "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+          "from": "2026-10-23",
+          "to": "2027-02-05",
+          "start": "14:00",
+          "end": "16:00",
+          "weekday": 5,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1798156800000,
+            1798761600000
+          ],
+          "first": "2026-10-23",
+          "last": "2027-02-05"
         }
       ],
       "note": "",
@@ -13930,61 +13989,501 @@
       "teacher": "Jun.-Prof. Dr. phil. Xiaobin Chen",
       "room": "Seminarraum 18 (Metropol)",
       "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-10-21",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-10-28",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-11-04",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-11-11",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-11-18",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-11-25",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-12-02",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-12-09",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2026-12-16",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2027-01-13",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2027-01-20",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2027-01-27",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 3,
+      "date": "2027-02-03",
+      "start": "12:00",
+      "end": "14:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Übungsraum 10 (Alte Archäologie - ESSC (Exchange Student Service Center))",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-10-21",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-10-28",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-11-04",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-11-11",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-11-18",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-11-25",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-12-02",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-12-09",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2026-12-16",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2027-01-13",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2027-01-20",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2027-01-27",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 4,
+      "date": "2027-02-03",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Hörsaal 14 (Neue Aula)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-10-23",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-10-30",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-11-06",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-11-13",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-11-20",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-11-27",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-12-04",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-12-11",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2026-12-18",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2027-01-08",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2027-01-15",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2027-01-22",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2027-01-29",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
+    },
+    {
+      "courseId": "45414",
+      "series": 5,
+      "date": "2027-02-05",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Tutorial",
+      "teacher": "N.N.",
+      "room": "Seminarraum 1.05 (Nauklerstr. 35)",
+      "modifier": ""
     }
   ],
   "weeks": [
     {
       "name": "19 Oct",
       "monday": "2026-10-19",
-      "events": 49,
+      "events": 52,
       "lastRow": 369
     },
     {
       "name": "26 Oct",
       "monday": "2026-10-26",
-      "events": 51,
+      "events": 54,
       "lastRow": 369
     },
     {
       "name": "02 Nov",
       "monday": "2026-11-02",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "09 Nov",
       "monday": "2026-11-09",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "16 Nov",
       "monday": "2026-11-16",
-      "events": 53,
+      "events": 56,
       "lastRow": 422
     },
     {
       "name": "23 Nov",
       "monday": "2026-11-23",
-      "events": 53,
+      "events": 56,
       "lastRow": 422
     },
     {
       "name": "30 Nov",
       "monday": "2026-11-30",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "07 Dec",
       "monday": "2026-12-07",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "14 Dec",
       "monday": "2026-12-14",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
@@ -14002,31 +14501,31 @@
     {
       "name": "04 Jan",
       "monday": "2027-01-04",
-      "events": 17,
+      "events": 18,
       "lastRow": 338
     },
     {
       "name": "11 Jan",
       "monday": "2027-01-11",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "18 Jan",
       "monday": "2027-01-18",
-      "events": 52,
+      "events": 55,
       "lastRow": 385
     },
     {
       "name": "25 Jan",
       "monday": "2027-01-25",
-      "events": 53,
+      "events": 56,
       "lastRow": 422
     },
     {
       "name": "01 Feb",
       "monday": "2027-02-01",
-      "events": 53,
+      "events": 56,
       "lastRow": 422
     },
     {
@@ -14042,5 +14541,5 @@
       "lastRow": 79
     }
   ],
-  "updated": "2026-10-20T10:06+02:00"
+  "updated": "2026-10-20T10:31+02:00"
 }

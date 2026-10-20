@@ -2195,7 +2195,7 @@ window.TIMETABLE_DATA = {
           n: 1,
           kind: "Advanced Seminar",
           teacher: "Dr. phil. Jekaterina Mažara",
-          room: "Übungsraum 10 (Alte Physik)",
+          room: "Nicht angegeben",
           from: "2026-10-19",
           to: "2027-02-01",
           start: "10:00",
@@ -9500,7 +9500,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9511,7 +9511,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9522,7 +9522,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9533,7 +9533,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9544,7 +9544,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9555,7 +9555,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9566,7 +9566,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9577,7 +9577,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9588,7 +9588,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9599,7 +9599,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9610,7 +9610,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9621,7 +9621,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9632,7 +9632,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -9643,7 +9643,7 @@ window.TIMETABLE_DATA = {
       end: "12:00",
       kind: "Advanced Seminar",
       teacher: "Dr. phil. Jekaterina Mažara",
-      room: "Übungsraum 10 (Alte Physik)",
+      room: "Nicht angegeben",
       modifier: "",
     },
     {
@@ -11768,5 +11768,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-19T11:26+02:00",
+  updated: "2026-10-20T10:06+02:00",
 };

@@ -5,7 +5,7 @@ const D = window.TIMETABLE_DATA,
 const courses = new Map(D.courses.map((c) => [c.id, c]));
 const updatedAt = new Date(D.updated);
 $("#data-updated").textContent =
-  "Updated " +
+  "Last synced with ALMA: " +
   new Intl.DateTimeFormat("en-GB", {
     day: "numeric",
     month: "short",
@@ -628,6 +628,13 @@ function fitPersonalCardContent() {
     card.classList.toggle("omit-room", remaining < 10);
   }
 }
+function personalCardHeight(viewportHeight, gridTop, overhead, rows) {
+  // Use the visible viewport after scrolling past the header; retain readable cards
+  // when the header or an expanded planner leaves too little room for four rows.
+  return Math.max(96, Math.floor(
+    (viewportHeight - Math.max(0, gridTop) - overhead - 12) / Math.max(4, rows),
+  ));
+}
 function fitPersonalCards() {
   const grid = $(".personal-week");
   if (
@@ -657,12 +664,7 @@ function fitPersonalCards() {
   if (!rows) return;
   const rect = grid.getBoundingClientRect(),
     overhead = rect.height - cardSpace,
-    height = Math.max(
-      52,
-      Math.floor(
-        (window.innerHeight - rect.top - overhead - 8) / Math.max(4, rows),
-      ),
-    );
+    height = personalCardHeight(window.innerHeight, rect.top, overhead, rows);
   grid.style.setProperty("--personal-card-height", height + "px");
   grid.style.setProperty(
     "--personal-title-lines",
@@ -1162,5 +1164,16 @@ $("#export-ics").onclick = () => {
   toast("Calendar downloaded · " + ev.length + " meetings.");
 };
 
-window.addEventListener?.("resize", fitPersonalCards);
+let personalFitQueued = false;
+function schedulePersonalFit() {
+  if (personalFitQueued || !mine || view !== "week") return;
+  personalFitQueued = true;
+  const frame = window.requestAnimationFrame || ((callback) => callback());
+  frame(() => { personalFitQueued = false; fitPersonalCards(); });
+}
+window.addEventListener?.("resize", schedulePersonalFit);
+window.addEventListener?.("scroll", schedulePersonalFit, { passive: true });
+document.addEventListener("toggle", (event) => {
+  if (event.target.id === "ects-planner") schedulePersonalFit();
+}, true);
 render();

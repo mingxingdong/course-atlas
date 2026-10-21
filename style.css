@@ -1810,3 +1810,90 @@ main {
     text-align: right;
   }
 }
+
+/* Semester credit planner stays compact until the user opens it. */
+.ects-planner { margin: 0 0 10px; border-block: 1px solid var(--line, #dce0d5); }
+.ects-planner[hidden] { display: none; }
+.ects-planner summary { display: flex; align-items: center; gap: 14px; padding: 10px 0; cursor: pointer; list-style: none; font-weight: 600; }
+.ects-planner summary::-webkit-details-marker { display: none; }
+#ects-count { margin-left: 8px; font-size: 12px; font-weight: 400; color: #6e7d76; }
+#ects-total { margin-left: auto; white-space: nowrap; }
+.ects-expand { transition: transform .15s; }
+.ects-planner[open] .ects-expand { transform: rotate(180deg); }
+.ects-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 30px; }
+.ects-row { display: flex; gap: 9px; align-items: center; padding: 7px 0; border-top: 1px solid #e5e7de; min-width: 0; }
+.ects-row .swatch { flex: 0 0 9px; background: var(--course); }
+.ects-course { text-align: left; font-size: 13px; line-height: 1.35; min-width: 0; flex: 1; }
+.ects-select select { padding: 5px 22px 5px 7px; font-size: 13px; max-width: 110px; }
+.ects-fixed { white-space: nowrap; font-size: 13px; padding: 5px 7px; }
+.ects-note { font-size: 12px; color: #6e7d76; margin: 10px 0; line-height: 1.4; }
+@media (max-width: 740px) { .ects-list { grid-template-columns: 1fr; } }
+
+/* Module allocation and assessment stay inline, without selection dialogs. */
+.ects-list { grid-template-columns: 1fr; }
+.ects-row { flex-wrap: wrap; }
+.ects-course { flex: 1 1 200px; }
+.course-allocation { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+.course-allocation label { display: grid; gap: 3px; }
+.course-allocation label > span { font-size: 11px; color: #6e7d76; }
+.course-allocation select { font-size: 13px; padding: 5px 22px 5px 7px; max-width: 260px; }
+.module-progress-heading { display: flex; gap: 12px; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 20px; }
+.module-progress-heading h3 { font-size: 15px; margin: 0; }
+.module-progress-heading select { font-size: 13px; padding: 6px; }
+.module-progress-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 12px; }
+.module-progress-item { border: 1px solid #dce0d5; border-radius: 10px; padding: 12px; min-width: 0; }
+.module-progress-title { display: flex; flex-wrap: wrap; gap: 6px; justify-content: space-between; font-size: 13px; }
+.module-progress-item p { margin: 5px 0; font-size: 12px; line-height: 1.4; }
+.module-progress-item progress { display: block; width: 100%; height: 7px; margin: 9px 0; accent-color: #173d36; }
+.module-progress-item small, .module-course-names { color: #6e7d76; font-size: 11px; }
+@media (max-width: 740px) {
+  .course-allocation { width: 100%; padding-left: 18px; }
+  .course-allocation label { flex: 1; min-width: 0; }
+  .course-allocation select { width: 100%; max-width: 100%; }
+  .module-progress-grid { grid-template-columns: 1fr; }
+}
+
+/* Handbook requirements: compulsory areas and elective rules remain distinct. */
+.module-progress-grid.handbook-layout { display: block; }
+.ba-intro h3 { margin: 16px 0 5px; font-size: 19px; }
+.ba-intro p, .ba-core-rule p, .ba-planning-note { font-size: 13px; line-height: 1.5; }
+.ba-metrics { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin: 16px 0; }
+.ba-metric { display: grid; gap: 7px; padding: 14px; background: #eef1e8; border-radius: 10px; }
+.ba-metric > span { font-size: 12px; }
+.ba-metric strong { font-size: 20px; }
+.ba-metric small { font-size: 11px; line-height: 1.4; color: #66776d; }
+.ba-metric progress { width: 100%; height: 7px; accent-color: #173d36; }
+.ba-core-rule { border-left: 3px solid #8eafa0; padding: 4px 0 4px 14px; margin: 18px 0; }
+.ba-core-rule h4 { margin: 0; font-size: 14px; }
+.ba-choice-status { display: flex; flex-wrap: wrap; gap: 7px; }
+.ba-choice-status span { font-size: 12px; padding: 5px 8px; background: #eeeee5; border-radius: 6px; }
+.ba-choice-status .covered { background: #dceadf; }
+.ba-planning-note { color: #6e7d76; }
+.ba-section-heading { font-size: 17px; margin: 24px 0 10px; }
+.ba-subheading { font-size: 13px; margin: 16px 0 6px; }
+.ba-module-group { border-top: 1px solid #dce0d5; padding: 10px 0; }
+.ects-planner .ba-module-group > summary { display: list-item; padding: 4px 0; font-size: 14px; }
+.ba-module-group > summary span { float: right; font-weight: 400; }
+.ects-planner .module-requirements > summary { display: list-item; padding: 8px 0 0; font-size: 11px; font-weight: 500; }
+.module-requirements p { color: #52695d; }
+@media (max-width:740px) {
+  .ba-metrics { grid-template-columns: 1fr; }
+  .ba-module-group > summary span { float: none; display: block; margin-top: 4px; }
+}
+
+.ects-planner .module-requirements > summary::after { content: " +"; }
+.ects-planner .module-requirements[open] > summary::after { content: " −"; }
+
+/* Checkbox dropdown allows module unions without modifier keys. */
+.module-filter-field { font-size: 10px; font-weight: 600; color: #607368; min-width: 0; position: relative; }
+.module-filter { position: relative; margin-top: 5px; }
+.module-filter > summary { border: 1px solid #d7dacd; background: #fafbf6; border-radius: 6px; padding: 9px 5px; font-size: 11px; color: var(--ink); cursor: pointer; overflow-wrap: anywhere; }
+.module-filter-menu { position: absolute; z-index: 30; top: calc(100% + 4px); left: 0; min-width: 205px; max-height: 300px; overflow-y: auto; background: #fafbf6; border: 1px solid #d7dacd; border-radius: 9px; padding: 6px; box-shadow: 0 5px 16px #173d361a; }
+.filter-grid .module-filter-option { display: flex; align-items: center; gap: 8px; padding: 8px 6px; font-size: 12px; cursor: pointer; color: var(--ink); }
+.module-filter-option input { width: 15px; height: 15px; margin: 0; accent-color: #173d36; }
+.module-filter-option:hover, .module-filter-option:focus-within { background: #eaf0e5; border-radius: 5px; }
+@media (max-width:740px) { .module-filter-menu { min-width: min(225px, 70vw); } }
+
+.module-filter > summary { display: block; list-style: none; line-height: 1.5; }
+.module-filter > summary::-webkit-details-marker { display: none; }
+.module-filter > summary::marker { content: ""; }

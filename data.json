@@ -506,6 +506,25 @@
           "canceled": [1792022400000, 1798070400000, 1798675200000],
           "first": "2026-10-22",
           "last": "2027-02-04"
+        },
+        {
+          "n": 3,
+          "kind": "Seminar",
+          "teacher": "Dr. phil. Cagri Cöltekin",
+          "room": "Hörsaal H404 (Geographie (Hauptbau))",
+          "from": "2026-10-29",
+          "to": "2027-02-04",
+          "start": "14:00",
+          "end": "16:00",
+          "weekday": 4,
+          "isBlock": false,
+          "modifier": "",
+          "canceled": [
+            1798070400000,
+            1798675200000
+          ],
+          "first": "2026-10-29",
+          "last": "2027-02-04"
         }
       ],
       "note": "",
@@ -2067,7 +2086,7 @@
           "n": 1,
           "kind": "Advanced Seminar",
           "teacher": "M.A. Shaghayegh Moosavi",
-          "room": "Nicht angegeben",
+          "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
           "from": "2027-02-08",
           "to": "2027-02-11",
           "start": "12:00",
@@ -2083,7 +2102,7 @@
           "n": 2,
           "kind": "Advanced Seminar",
           "teacher": "M.A. Shaghayegh Moosavi",
-          "room": "Nicht angegeben",
+          "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
           "from": "2027-02-16",
           "to": "2027-02-19",
           "start": "12:00",
@@ -2802,7 +2821,7 @@
           "n": 1,
           "kind": "Advanced Seminar",
           "teacher": "M.A. Shaghayegh Moosavi",
-          "room": "Nicht angegeben",
+          "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
           "from": "2027-02-08",
           "to": "2027-02-11",
           "start": "08:00",
@@ -2818,7 +2837,7 @@
           "n": 2,
           "kind": "Advanced Seminar",
           "teacher": "M.A. Shaghayegh Moosavi",
-          "room": "Nicht angegeben",
+          "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
           "from": "2027-02-16",
           "to": "2027-02-19",
           "start": "08:00",
@@ -3436,7 +3455,7 @@
           "n": 1,
           "kind": "Advanced Seminar",
           "teacher": "Dr. phil. Jekaterina Mažara",
-          "room": "Nicht angegeben",
+          "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
           "from": "2026-10-19",
           "to": "2027-02-01",
           "start": "10:00",
@@ -10379,7 +10398,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10390,7 +10409,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10401,7 +10420,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10412,7 +10431,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10423,7 +10442,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10434,7 +10453,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10445,7 +10464,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -10456,7 +10475,7 @@
       "end": "16:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11358,7 +11377,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11369,7 +11388,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11380,7 +11399,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11391,7 +11410,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11402,7 +11421,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11413,7 +11432,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11424,7 +11443,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11435,7 +11454,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "M.A. Shaghayegh Moosavi",
-      "room": "Nicht angegeben",
+      "room": "Seminar-/Besprechungsraum 181 (OSA-Keplerstr.)",
       "modifier": ""
     },
     {
@@ -11743,7 +11762,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11754,7 +11773,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11765,7 +11784,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11776,7 +11795,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11787,7 +11806,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11798,7 +11817,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11809,7 +11828,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11820,7 +11839,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11831,7 +11850,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11842,7 +11861,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11853,7 +11872,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11864,7 +11883,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11875,7 +11894,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -11886,7 +11905,7 @@
       "end": "12:00",
       "kind": "Advanced Seminar",
       "teacher": "Dr. phil. Jekaterina Mažara",
-      "room": "Nicht angegeben",
+      "room": "Seminarraum 301 (Lothar-Meyer-Bau)",
       "modifier": ""
     },
     {
@@ -14429,6 +14448,149 @@
       "teacher": "N.N.",
       "room": "Seminarraum 1.05 (Nauklerstr. 35)",
       "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-10-29",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-11-05",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-11-12",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-11-19",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-11-26",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-12-03",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-12-10",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2026-12-17",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2027-01-07",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2027-01-14",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2027-01-21",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2027-01-28",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
+    },
+    {
+      "courseId": "46581",
+      "series": 3,
+      "date": "2027-02-04",
+      "start": "14:00",
+      "end": "16:00",
+      "kind": "Seminar",
+      "teacher": "Dr. phil. Cagri Cöltekin",
+      "room": "Hörsaal H404 (Geographie (Hauptbau))",
+      "modifier": ""
     }
   ],
   "weeks": [
@@ -14441,49 +14603,49 @@
     {
       "name": "26 Oct",
       "monday": "2026-10-26",
-      "events": 54,
+      "events": 55,
       "lastRow": 369
     },
     {
       "name": "02 Nov",
       "monday": "2026-11-02",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "09 Nov",
       "monday": "2026-11-09",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "16 Nov",
       "monday": "2026-11-16",
-      "events": 56,
+      "events": 57,
       "lastRow": 422
     },
     {
       "name": "23 Nov",
       "monday": "2026-11-23",
-      "events": 56,
+      "events": 57,
       "lastRow": 422
     },
     {
       "name": "30 Nov",
       "monday": "2026-11-30",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "07 Dec",
       "monday": "2026-12-07",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "14 Dec",
       "monday": "2026-12-14",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
@@ -14501,31 +14663,31 @@
     {
       "name": "04 Jan",
       "monday": "2027-01-04",
-      "events": 18,
+      "events": 19,
       "lastRow": 338
     },
     {
       "name": "11 Jan",
       "monday": "2027-01-11",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "18 Jan",
       "monday": "2027-01-18",
-      "events": 55,
+      "events": 56,
       "lastRow": 385
     },
     {
       "name": "25 Jan",
       "monday": "2027-01-25",
-      "events": 56,
+      "events": 57,
       "lastRow": 422
     },
     {
       "name": "01 Feb",
       "monday": "2027-02-01",
-      "events": 56,
+      "events": 57,
       "lastRow": 422
     },
     {
@@ -14541,5 +14703,5 @@
       "lastRow": 79
     }
   ],
-  "updated": "2026-10-20T10:31+02:00"
+  "updated": "2026-10-21T10:44+02:00"
 }

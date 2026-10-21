@@ -37,3 +37,18 @@ My timetable places overlapping selected sessions in separate horizontal lanes. 
 Filters and the course list are visible on first visit. The Hide button inside the sidebar expands the timetable to the full page width. A small arrow on the left page edge appears when filters are hidden and restores the sidebar. The browser remembers the visibility choice. The / search shortcut reveals filters before focusing search.
 
 Personal cards keep the session type beside the time. Course titles receive space first; room and teacher are shown on one line each when the remaining card height permits. Overflowing secondary text uses ellipses; full information remains in course details.
+
+## ECTS and module planner
+
+Saving a course updates the compact My credits & modules total above week navigation. Expand it to choose one module and one compatible assessment/ECTS option per course. Defaults use the first listed module and its first assessment value. Existing numeric preferences are retained when compatible. Switching modules preserves a compatible assessment or credit value and otherwise uses that module's default. Tutorial component credits belong to the course total rather than multiplying with selected tutorial groups (DSA I defaults to 9 ECTS).
+
+The total covers all saved courses across the semester, independently of week and filters. Each course contributes to exactly one module. Assignments, numeric credits and assessment qualifiers persist locally and travel in shared personal timetable links. Removing a course subtracts its contribution while retaining preferences for re-adding.
+
+Progress shows planned credits against targets from the supplied Computational Linguistics BA and MA handbooks, June 2023, sections 3.1–3.2. It does not certify passed exams, assessment requirements or recognition. Assigned modules are shown by default; BA/MA overviews also include modules without saved courses. The BA ASW electives are alternatives totalling 39 ECTS, including at least two of ASW-BA-04/05/07; users do not need to complete every displayed elective. ISCL-MA-04.2 and 06.2 roll up into their parent module targets. ASW MA targets have not been verified and are labelled accordingly. Progress bars cap at their target while numeric totals and excess credits remain visible. No previous-semester or externally recognised credits are inferred.
+
+
+### ISCL B.A. handbook requirements
+
+The B.A. overview separates 141 compulsory ECTS (foundations, CL/programming, professional/language skills, practice/specialisation and thesis) from the 39-ECTS ASW elective area. It checks whether planned credits cover at least two full 9-ECTS targets among ASW-BA-04/05/07; Psycholinguistics is not one of these three. This is a numeric planning check, never proof of passed modules or component completion. Each module expands to its handbook components and prerequisites. Targets are capped per module in area totals; elective credits above 39 cannot replace compulsory requirements, and MA allocations are excluded from BA totals. Partial elective credits are shown provisionally with explicit uncertainty about final recognition. Previous-semester and recognised credits are not assumed. The Programming and Data Analysis catalogue/handbook discrepancy is visible in the ASW-BA-02 note. The handbook B.A. view is the initial default (previous explicit MA preference is retained); the overview preference is then remembered independently.
+
+My timetable and its calendar export ignore search, programme, module and session-type filters. They include only saved courses and positively selected tutorials. Explore all and its export continue to respect filters.

@@ -74,6 +74,33 @@ if (params.has("courses"))
   tutorials = new Set(
     (params.get("tutorials") || "").split(",").filter(Boolean),
   );
+let creditChoices = readStore("atlas-credits-v1", {});
+if (!creditChoices || typeof creditChoices !== "object" || Array.isArray(creditChoices))
+  creditChoices = {};
+if (params.has("courses")) {
+  creditChoices = Object.fromEntries(
+    (params.get("credits") || "").split(",").map((entry) => entry.split(":"))
+      .filter(([id, value]) => selected.has(id) && value && Number.isFinite(Number(value)))
+      .map(([id, value]) => [id, Number(value)]),
+  );
+}
+let moduleChoices = readStore("atlas-modules-v1", {}),
+  assessmentChoices = readStore("atlas-assessments-v1", {}),
+  moduleOverview = "assigned";
+for (const value of [moduleChoices, assessmentChoices]) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    moduleChoices = {}; assessmentChoices = {}; break;
+  }
+}
+if (params.has("courses")) {
+  moduleChoices = Object.fromEntries((params.get("allocations") || "").split(",")
+    .map((entry) => entry.split(":"))
+    .filter(([id, code]) => selected.has(id) && courses.get(id).creditOptions.some((m) => m.code === code)));
+  try {
+    const shared = JSON.parse(params.get("assessments") || "{}");
+    assessmentChoices = shared && typeof shared === "object" && !Array.isArray(shared) ? shared : {};
+  } catch { assessmentChoices = {}; }
+}
 let mobileDay = 0;
 const sidebarStoreKey = matchMedia("(max-width:740px)").matches
   ? "atlas-sidebar-collapsed-mobile-v1"
@@ -81,7 +108,7 @@ const sidebarStoreKey = matchMedia("(max-width:740px)").matches
 let sidebarCollapsed =
   readStore(sidebarStoreKey, matchMedia("(max-width:740px)").matches) === true;
 let query = params.get("q") || "",
-  programme = params.get("programme") || "",
+  programme = (params.get("programme") || "").split(",").filter((p) => ["ASW-BA", "ASW-MA", "ISCL-BA", "ISCL-MA"].includes(p)).join(","),
   moduleCode = params.get("module") || "",
   kind = params.get("kind") || "";
 const sessionKey = (e) => e.courseId + ":" + e.series;
@@ -90,14 +117,18 @@ function persist() {
     localStorage.setItem("atlas-courses-v1", JSON.stringify([...selected]));
     localStorage.setItem("atlas-tutorials-v2", JSON.stringify([...tutorials]));
     localStorage.setItem("atlas-view-v1", JSON.stringify(view));
+    localStorage.setItem("atlas-credits-v1", JSON.stringify(creditChoices));
+    localStorage.setItem("atlas-modules-v1", JSON.stringify(moduleChoices));
+    localStorage.setItem("atlas-assessments-v1", JSON.stringify(assessmentChoices));
+    localStorage.setItem("atlas-module-overview-v2", JSON.stringify(moduleOverview));
   } catch {
     toast("Browser storage is unavailable. Your choices last for this visit.");
   }
 }
 function courseMatches(c) {
   return (
-    (!programme || c.modules.some((m) => m.includes("-" + programme + "-"))) &&
-    (!moduleCode || c.modules.includes(moduleCode)) &&
+    (!programme || c.modules.some((m) => selectedProgrammes().some((prefix) => m.startsWith(prefix + "-")))) &&
+    (!moduleCode || c.modules.some((m) => selectedModuleFilters().includes(m))) &&
     (!kind || c.series.some((s) => s.kind === kind)) &&
     (!query ||
       [
@@ -115,14 +146,14 @@ function matchingCourses() {
   return D.courses.filter(courseMatches);
 }
 function filteredEvents(allSemester = false) {
-  const ids = new Set(matchingCourses().map((c) => c.id));
+  const ids = mine ? selected : new Set(matchingCourses().map((c) => c.id));
   const monday = D.weeks[week].monday;
   return D.events
     .filter(
       (e) =>
         ids.has(e.courseId) &&
         (!mine || selected.has(e.courseId)) &&
-        (!kind || e.kind === kind) &&
+        (mine || !kind || e.kind === kind) &&
         (!mine || e.kind !== "Tutorial" || tutorials.has(sessionKey(e))) &&
         (allSemester || (e.date >= monday && e.date <= add(monday, 4))),
     )
@@ -187,6 +218,200 @@ function creditHTML(c) {
     )
     .join("");
 }
+// Targets from the supplied Computational Linguistics handbooks (June 2023),
+// BA section 3.1 and MA sections 3.1–3.2. ASW MA targets are not verified here.
+const moduleTargets = {
+  "ASW-BA-01": [6, "Linguistic Fundamentals"],
+  "ASW-BA-02": [6, "Methods I"],
+  "ASW-BA-03": [6, "Methods II"],
+  "ASW-BA-04": [9, "Phonetics and Phonology"],
+  "ASW-BA-05": [9, "Syntax and Semantics"],
+  "ASW-BA-06": [9, "Psycholinguistics"],
+  "ASW-BA-07": [9, "Semantics and Pragmatics"],
+  "ASW-BA-08": [12, "Language and Cognition"],
+  "ASW-BA-09": [12, "Variation, Evolution and Change"],
+  "ASW-BA-10": [9, "Language Use"],
+  "ISCL-BA-01": [12, "Introduction to Computational Linguistics"],
+  "ISCL-BA-02": [15, "Transferable Professional Skills I"],
+  "ISCL-BA-03": [6, "Transferable Professional Skills II"],
+  "ISCL-BA-04": [12, "Programming Foundations"],
+  "ISCL-BA-05": [6, "Text Technology"],
+  "ISCL-BA-06": [6, "Parsing"],
+  "ISCL-BA-07": [12, "Advanced Programming"],
+  "ISCL-BA-08": [9, "Statistical Methods in Computational Linguistics"],
+  "ISCL-BA-09": [9, "Grammar Formalisms"],
+  "ISCL-BA-10": [9, "Internship"],
+  "ISCL-BA-11": [15, "Specialisation"],
+  "ISCL-BA-12": [12, "Final Examination"],
+  "ISCL-MA-01": [15, "Core: Orientation"],
+  "ISCL-MA-02": [15, "Supplementary: Foundations"],
+  "ISCL-MA-03": [15, "Core: Advanced Studies"],
+  "ISCL-MA-04": [15, "Supplementary: Interdisciplinary Context"],
+  "ISCL-MA-05": [15, "Core: Specialisation"],
+  "ISCL-MA-06": [15, "Supplementary: Practice / Interdisciplinary Studies"],
+  "ISCL-MA-07": [30, "Thesis and Final Examination"],
+};
+function chosenModule(c) {
+  return c.creditOptions.find((m) => m.code === moduleChoices[c.id]) || c.creditOptions[0];
+}
+// Tutorial entries are components of a course total, not extra selectable groups.
+function assessmentOptions(c) {
+  const module = chosenModule(c);
+  if (!module) return [];
+  const components = module.options.filter((o) => /^tutorial$/i.test(o.qualifier));
+  const main = module.options.filter((o) => !/^tutorial$/i.test(o.qualifier));
+  let additions = [0];
+  for (const component of components)
+    additions = additions.flatMap((sum) => component.points.map((n) => sum + n));
+  const variants = main.flatMap((o) => o.points.flatMap((points) => additions.map((extra) => ({
+    points: points + extra, qualifier: o.qualifier || "", key: JSON.stringify([points + extra, o.qualifier || ""]),
+  }))));
+  return [...new Map(variants.filter((o) => Number.isFinite(o.points) && o.points > 0).map((o) => [o.key, o])).values()];
+}
+function ectsOptions(c) {
+  const variants = assessmentOptions(c);
+  return { values: [...new Set(variants.map((o) => o.points))].sort((a, b) => a - b), defaultValue: variants[0]?.points };
+}
+function chosenAssessment(c) {
+  const variants = assessmentOptions(c), value = Number(creditChoices[c.id]);
+  return variants.find((o) => o.key === assessmentChoices[c.id] && o.points === value)
+    || variants.find((o) => o.points === value) || variants[0];
+}
+function chosenCredits(c) { return chosenAssessment(c)?.points; }
+function ectsTotal() {
+  return [...selected].reduce((sum, id) => sum + (chosenCredits(courses.get(id)) || 0), 0);
+}
+function progressModule(code) {
+  return /^ISCL-MA-(04|06)\.2$/.test(code) ? code.split(".")[0] : code;
+}
+function moduleProgress() {
+  const totals = new Map();
+  for (const id of selected) {
+    const c = courses.get(id), module = chosenModule(c);
+    if (!module) continue;
+    const code = progressModule(module.code);
+    if (!totals.has(code)) totals.set(code, { credits: 0, courses: [] });
+    totals.get(code).credits += chosenCredits(c) || 0;
+    totals.get(code).courses.push(c.name);
+  }
+  return totals;
+}
+// This is a plan against handbook requirements, not an examination audit.
+const baCoreChoices = ["ASW-BA-04", "ASW-BA-05", "ASW-BA-07"];
+const baElectives = Object.keys(moduleTargets).filter((code) => /^ASW-BA-0[4-9]$|^ASW-BA-10$/.test(code));
+const baCompulsoryGroups = [
+  { title: "Foundations", codes: ["ASW-BA-01", "ASW-BA-02", "ASW-BA-03", "ISCL-BA-01", "ISCL-BA-04"] },
+  { title: "Computational linguistics and programming", codes: ["ISCL-BA-05", "ISCL-BA-06", "ISCL-BA-07", "ISCL-BA-08", "ISCL-BA-09"] },
+  { title: "Professional and language skills", codes: ["ISCL-BA-02", "ISCL-BA-03"] },
+  { title: "Practice and specialisation", codes: ["ISCL-BA-10", "ISCL-BA-11"] },
+  { title: "Final thesis", codes: ["ISCL-BA-12"] },
+];
+const baModuleRequirements = {
+  "ASW-BA-01": ["Introduction to Linguistics · 6 ECTS; graded examination.", "No prerequisites."],
+  "ASW-BA-02": ["Logic · 3 ECTS + Programming and Data Analysis · 3 ECTS.", "No prerequisites. The catalogue currently assigns Programming and Data Analysis to ASW-BA-03; confirm the correct registration allocation with the examination office."],
+  "ASW-BA-03": ["Mathematical Methods: Statistics · 6 ECTS; graded examination.", "No prerequisites."],
+  "ISCL-BA-01": ["Introduction to Computational Linguistics · 3 ECTS + DSA I seminar · 6 ECTS + DSA I tutorial · 3 ECTS.", "No prerequisites."],
+  "ISCL-BA-02": ["15 ECTS from Studium Professionale; ungraded.", "No prerequisites."],
+  "ISCL-BA-03": ["6 ECTS of language courses; ungraded. German as a foreign language for non-native German speakers; an eligible new foreign language for native German speakers.", "No prerequisites."],
+  "ISCL-BA-04": ["DSA II seminar · 6 ECTS + tutorial · 6 ECTS; examination and programming assignments.", "Prerequisite: ISCL-BA-01."],
+  "ISCL-BA-05": ["Text Technology · 6 ECTS; examination and required programming assignments.", "No prerequisites."],
+  "ISCL-BA-06": ["Parsing · 6 ECTS; examination and required programming assignments.", "Prerequisites: ASW-BA-01, ISCL-BA-01 and ISCL-BA-04."],
+  "ISCL-BA-07": ["DSA III seminar · 6 ECTS + tutorial · 6 ECTS; examination and programming assignments.", "Prerequisites: ISCL-BA-01 and ISCL-BA-04."],
+  "ISCL-BA-08": ["Statistical Language Processing seminar · 6 ECTS + tutorial · 3 ECTS; examination and programming assignments.", "Prerequisites: ISCL-BA-06 and ISCL-BA-07."],
+  "ISCL-BA-09": ["Grammar Formalisms seminar · 3 ECTS + exercises · 6 ECTS; graded examination in the exercises.", "Prerequisites: ASW-BA-01, ASW-BA-02 and ISCL-BA-01."],
+  "ISCL-BA-10": ["Software internship · 9 ECTS. At least 190 programming hours; written documentation and a 20-minute presentation, each weighted 50%.", "Prerequisite: passed intermediate examination (Zwischenprüfung)."],
+  "ISCL-BA-11": ["Advanced seminar work · 6 ECTS + graded advanced seminar work · 9 ECTS. Smaller seminars may be combined; assessment usually includes a presentation and paper.", "Prerequisite: passed intermediate examination (Zwischenprüfung)."],
+  "ISCL-BA-12": ["B.A. thesis · 12 ECTS; typically 20–25 pages.", "Prerequisites: passed intermediate examination and ISCL-BA-02, 03, 10 and 11."],
+  "ASW-BA-04": ["Phonetics and Phonology seminar · 6 ECTS + required tutorial · 3 ECTS; graded seminar examination.", "Prerequisites: ASW-BA-01 and ASW-BA-02."],
+  "ASW-BA-05": ["Syntax and Semantics seminar · 6 ECTS + required tutorial · 3 ECTS; graded seminar examination.", "Prerequisites: ASW-BA-01 and ASW-BA-02."],
+  "ASW-BA-06": ["Psycholinguistics seminar · 6 ECTS + required tutorial · 3 ECTS; graded seminar examination.", "Prerequisites: ASW-BA-01 and ASW-BA-02. Optional elective; does not replace one of the two required choices from 04/05/07."],
+  "ASW-BA-07": ["Semantics and Pragmatics seminar · 6 ECTS + required tutorial · 3 ECTS; graded seminar examination.", "Prerequisites: ASW-BA-01 and ASW-BA-02."],
+  "ASW-BA-08": ["Graded Language and Cognition advanced seminar · 6 ECTS + ungraded project · 6 ECTS.", "Prerequisites: ASW-BA-01, ASW-BA-02 and ASW-BA-03."],
+  "ASW-BA-09": ["Graded Variation, Evolution and Change advanced seminar · 6 ECTS + ungraded project · 6 ECTS.", "Prerequisites: ASW-BA-01, ASW-BA-02 and ASW-BA-03."],
+  "ASW-BA-10": ["Graded Language Use advanced seminar · 6 ECTS + ungraded project · 3 ECTS.", "Prerequisites: ASW-BA-01, ASW-BA-02 and ASW-BA-03."],
+};
+function baPlan(totals = moduleProgress()) {
+  const credits = (code) => totals.get(code)?.credits || 0;
+  const capped = (codes) => codes.reduce((sum, code) => sum + Math.min(credits(code), moduleTargets[code][0]), 0);
+  const compulsory = baCompulsoryGroups.flatMap((group) => group.codes);
+  const elective = capped(baElectives), required = capped(compulsory);
+  return { required, elective, degree: required + Math.min(elective, 39),
+    coreCovered: baCoreChoices.filter((code) => credits(code) >= moduleTargets[code][0]),
+    coreStarted: baCoreChoices.filter((code) => credits(code) > 0),
+    outside: [...totals].filter(([code]) => !compulsory.includes(code) && !baElectives.includes(code))
+      .reduce((sum, [, entry]) => sum + entry.credits, 0),
+  };
+}
+function moduleProgressCard(code, totals, handbook = false) {
+  const entry = totals.get(code), planned = entry?.credits || 0, target = moduleTargets[code];
+  const requirements = handbook && baModuleRequirements[code];
+  return `<article class="module-progress-item"><div class="module-progress-title"><strong>${esc(code)}</strong><span>${planned}${target ? " / " + target[0] : ""} ECTS</span></div>${target ? `<p>${esc(target[1])}</p><progress max="${target[0]}" value="${Math.min(planned, target[0])}" aria-label="${esc(code)} planned credits">${planned} / ${target[0]}</progress><small>${planned > target[0] ? (planned - target[0]) + " ECTS above credit target" : planned === target[0] ? "Credit target covered in plan · Requirements still apply" : (target[0] - planned) + " ECTS remaining to plan"}</small>` : '<small>Target not verified · Assigned credits only</small>'}${entry ? `<p class="module-course-names">${entry.courses.map(esc).join(" · ")}</p>` : '<p class="module-course-names">No course assigned in this timetable.</p>'}${requirements ? `<details class="module-requirements"><summary>Required components & prerequisites</summary><p>${esc(requirements[0])}</p><p>${esc(requirements[1])}</p></details>` : ""}</article>`;
+}
+function renderBARequirements(totals) {
+  const plan = baPlan(totals);
+  const metric = (title, value, target, note) => `<div class="ba-metric"><span>${title}</span><strong>${value} / ${target} ECTS</strong><progress max="${target}" value="${Math.min(value, target)}" aria-label="${title}, planned credits"></progress><small>${note}</small></div>`;
+  return `<div class="ba-handbook"><div class="ba-intro"><h3>ISCL B.A. · Degree requirements</h3><p>180 ECTS = 141 compulsory + 39 ASW elective credits. Based on the June 2023 module handbook, §§3–4.</p></div><div class="ba-metrics">${metric("B.A. credits in this plan", plan.degree, 180, "Capped by module and elective-area targets; not certified degree progress.")}${metric("Compulsory modules", plan.required, 141, "Every compulsory module and its required components must be fulfilled.")}${metric("ASW elective area", plan.elective, 39, Math.max(0, 39 - plan.elective) + " ECTS remaining to plan; excess cannot replace compulsory credits.")}</div><div class="ba-core-rule"><h4>Required elective choice · At least two of ASW-BA-04 / 05 / 07</h4><p><strong>${plan.coreCovered.length} / 2 module credit targets covered in this plan</strong> · ${plan.coreStarted.length} started. ${plan.coreCovered.length >= 2 ? "Credit coverage reached; required seminars, tutorials and assessments still need confirmation." : "Still plan " + (2 - plan.coreCovered.length) + " more full module credit target(s) from these three."}</p><div class="ba-choice-status">${baCoreChoices.map((code) => `<span class="${plan.coreCovered.includes(code) ? "covered" : ""}">${code} · ${totals.get(code)?.credits || 0} / 9 ECTS</span>`).join("")}</div></div><p class="ba-planning-note">This view tracks this timetable only, not passed exams or previous credits. Numeric targets do not prove component completion or prerequisite eligibility. Counting partial elective modules toward the final 39 ECTS remains unconfirmed.</p>${plan.outside ? `<p class="ba-planning-note">${plan.outside} ECTS assigned outside the ISCL B.A. structure are excluded from the B.A. totals above.</p>` : ""}<h3 class="ba-section-heading">Compulsory · 141 ECTS</h3>${baCompulsoryGroups.map((group, i) => {
+    const target = group.codes.reduce((sum, code) => sum + moduleTargets[code][0], 0);
+    const planned = group.codes.reduce((sum, code) => sum + Math.min(totals.get(code)?.credits || 0, moduleTargets[code][0]), 0);
+    return `<details class="ba-module-group" ${i === 0 ? "open" : ""}><summary>${group.title}<span>${planned} / ${target} ECTS</span></summary><div class="module-progress-grid">${group.codes.map((code) => moduleProgressCard(code, totals, true)).join("")}</div></details>`;
+  }).join("")}<h3 class="ba-section-heading">ASW electives · Choose 39 ECTS</h3><p class="ects-note">Choose at least two of the three core modules below. The other electives are alternatives; you do not need every module.</p><h4 class="ba-subheading">Core choice · At least two required</h4><div class="module-progress-grid">${baCoreChoices.map((code) => moduleProgressCard(code, totals, true)).join("")}</div><h4 class="ba-subheading">Other elective options</h4><div class="module-progress-grid">${baElectives.filter((code) => !baCoreChoices.includes(code)).map((code) => moduleProgressCard(code, totals, true)).join("")}</div><p class="ects-note">Handbook sources: module overview pp. 6–7; compulsory modules pp. 9–24; ASW electives pp. 24–30. Catalogue/module mismatches require confirmation; no source course allocations are changed by this planner.</p></div>`;
+}
+function renderModuleProgress() {
+  // Handbook overviews are retained for review, but are not released yet.
+  moduleOverview = "assigned";
+  const totals = moduleProgress();
+  $("#module-overview").value = moduleOverview;
+  $("#module-progress").classList.toggle("handbook-layout", moduleOverview === "BA");
+  if (moduleOverview === "BA") {
+    $("#module-progress").innerHTML = renderBARequirements(totals);
+    return;
+  }
+  const codes = moduleOverview === "MA"
+    ? Object.keys(moduleTargets).filter((code) => code.startsWith("ISCL-MA-")) : [...totals.keys()];
+  $("#module-progress").innerHTML = codes.sort().map((code) => moduleProgressCard(code, totals)).join("")
+    || '<p class="ects-note">Save a course to start planning modules.</p>';
+}
+function renderCredits() {
+  $("#ects-planner").hidden = selected.size === 0;
+  $("#ects-total").textContent = ectsTotal() + " ECTS";
+  $("#ects-count").textContent = selected.size + (selected.size === 1 ? " course" : " courses");
+  $("#ects-list").innerHTML = [...selected].map((id) => {
+    const c = courses.get(id), variants = assessmentOptions(c), chosen = chosenAssessment(c), module = chosenModule(c);
+    const creditControl = variants.length > 1
+      ? `<label class="ects-select"><span>Assessment</span><select data-assessment="${esc(id)}" aria-label="Assessment and ECTS for ${esc(c.name)}">${variants.map((o) => `<option value="${esc(o.key)}" ${o.key === chosen?.key ? "selected" : ""}>${o.points} ECTS${o.qualifier ? " · " + esc(o.qualifier) : ""}</option>`).join("")}</select></label>`
+      : `<span class="ects-fixed">${chosen ? chosen.points + " ECTS" + (chosen.qualifier ? " · " + esc(chosen.qualifier) : "") : "Not specified"}</span>`;
+    return `<div class="ects-row" style="--course:${esc(c.color)}"><span class="swatch"></span><button class="ects-course" data-detail="${esc(id)}">${esc(c.name)}</button><div class="course-allocation"><label><span>Module</span><select data-module-choice="${esc(id)}" aria-label="Module for ${esc(c.name)}">${c.creditOptions.map((m) => `<option value="${esc(m.code)}" ${m.code === module?.code ? "selected" : ""}>${esc(m.code)}</option>`).join("")}</select></label>${creditControl}</div></div>`;
+  }).join("");
+  renderModuleProgress();
+}
+document.addEventListener("change", (event) => {
+  if (event.target.id === "module-overview") {
+    if (event.target.value !== "assigned") return;
+    moduleOverview = event.target.value; persist(); renderModuleProgress(); return;
+  }
+  const input = event.target.closest("[data-module-choice], [data-assessment], [data-ects]");
+  if (!input) return;
+  const id = input.dataset.moduleChoice || input.dataset.assessment || input.dataset.ects, c = courses.get(id);
+  if (!c || !selected.has(id)) return;
+  if (input.dataset.moduleChoice) {
+    if (!c.creditOptions.some((m) => m.code === input.value)) return;
+    const previous = chosenAssessment(c);
+    moduleChoices[id] = input.value;
+    const variants = assessmentOptions(c);
+    const next = variants.find((o) => o.key === previous?.key)
+      || variants.find((o) => o.points === previous?.points) || variants[0];
+    creditChoices[id] = next?.points; assessmentChoices[id] = next?.key;
+  } else if (input.dataset.assessment) {
+    const option = assessmentOptions(c).find((o) => o.key === input.value);
+    if (!option) return;
+    creditChoices[id] = option.points; assessmentChoices[id] = option.key;
+  } else {
+    const value = Number(input.value);
+    if (!ectsOptions(c).values.includes(value)) return;
+    creditChoices[id] = value; delete assessmentChoices[id];
+  }
+  persist(); renderCredits(); updateHash();
+});
 function chosenTutorials(id) {
   return courses
     .get(id)
@@ -224,15 +449,26 @@ function chooseSession(id, n) {
 function displayEvents() {
   return filteredEvents();
 }
+function selectedProgrammes() {
+  return [...new Set(programme.split(",").filter(Boolean))];
+}
+function selectedModuleFilters() {
+  return [...new Set(moduleCode.split(",").filter(Boolean))];
+}
 function options() {
+  const programmes = selectedProgrammes();
+  $("#programme-summary").textContent = programmes.length ? programmes.join(", ") : "All programmes";
+  $("#programme").innerHTML = `<label class="module-filter-option"><input type="checkbox" data-filter-programme="" ${programmes.length ? "" : "checked"}>All programmes</label>` +
+    ["ASW-BA", "ASW-MA", "ISCL-BA", "ISCL-MA"].map((prefix) => `<label class="module-filter-option"><input type="checkbox" data-filter-programme="${prefix}" ${programmes.includes(prefix) ? "checked" : ""}>${prefix}</label>`).join("");
   const codes = [...new Set(D.courses.flatMap((c) => c.modules))]
-    .filter((m) => !programme || m.includes("-" + programme + "-"))
+    .filter((m) => !programme || selectedProgrammes().some((prefix) => m.startsWith(prefix + "-")))
     .sort();
-  if (!codes.includes(moduleCode)) moduleCode = "";
+  const selectedCodes = selectedModuleFilters().filter((code) => codes.includes(code));
+  moduleCode = selectedCodes.join(",");
+  $("#module-summary").textContent = selectedCodes.length ? selectedCodes.join(", ") : "All modules";
   $("#module").innerHTML =
-    '<option value="">All modules</option>' +
-    codes.map((x) => `<option>${esc(x)}</option>`).join("");
-  $("#module").value = moduleCode;
+    `<label class="module-filter-option"><input type="checkbox" data-filter-module="" ${selectedCodes.length ? "" : "checked"}>All modules</label>` +
+    codes.map((code) => `<label class="module-filter-option"><input type="checkbox" data-filter-module="${esc(code)}" ${selectedCodes.includes(code) ? "checked" : ""}>${esc(code)}</label>`).join("");
 }
 $("#week-select").innerHTML = D.weeks
   .map(
@@ -260,6 +496,9 @@ function updateHash() {
   if (kind) p.set("kind", kind);
   if (mine) {
     p.set("courses", [...selected].join(","));
+    p.set("allocations", [...selected].filter((id) => chosenModule(courses.get(id))).map((id) => id + ":" + chosenModule(courses.get(id)).code).join(","));
+    p.set("assessments", JSON.stringify(Object.fromEntries([...selected].filter((id) => chosenAssessment(courses.get(id))).map((id) => [id, chosenAssessment(courses.get(id)).key]))));
+    p.set("credits", [...selected].filter((id) => chosenCredits(courses.get(id)) !== undefined).map((id) => id + ":" + chosenCredits(courses.get(id))).join(","));
     p.set(
       "tutorials",
       [...tutorials].filter((k) => selected.has(k.split(":")[0])).join(","),
@@ -433,6 +672,7 @@ function fitPersonalCards() {
 }
 function render() {
   applySidebar();
+  renderCredits();
   $("main").classList.toggle("personal-planning", mine);
   const list = matchingCourses();
   $("#course-count").textContent = list.length;
@@ -607,6 +847,8 @@ function resetFilters() {
   options();
 }
 document.addEventListener("click", (e) => {
+  if (!e.target.closest("#module-filter")) $("#module-filter").open = false;
+  if (!e.target.closest("#programme-filter")) $("#programme-filter").open = false;
   const day = e.target.closest("[data-day]");
   if (day) {
     mobileDay = Number(day.dataset.day);
@@ -645,12 +887,33 @@ $("#search").oninput = (e) => {
   render();
 };
 $("#programme").onchange = (e) => {
-  programme = e.target.value;
+  const input = e.target.closest("[data-filter-programme]");
+  if (!input) return;
+  const prefix = input.dataset.filterProgramme;
+  const choices = new Set(selectedProgrammes());
+  if (!prefix) {
+    choices.clear();
+    $("#programme-filter").open = false;
+  }
+  else if (input.checked) choices.add(prefix);
+  else choices.delete(prefix);
+  programme = [...choices].join(",");
   options();
   render();
 };
 $("#module").onchange = (e) => {
-  moduleCode = e.target.value;
+  const input = e.target.closest("[data-filter-module]");
+  if (!input) return;
+  const code = input.dataset.filterModule;
+  const choices = new Set(selectedModuleFilters());
+  if (!code) {
+    choices.clear();
+    $("#module-filter").open = false;
+  }
+  else if (input.checked) choices.add(code);
+  else choices.delete(code);
+  moduleCode = [...choices].join(",");
+  options();
   render();
 };
 $("#kind").onchange = (e) => {

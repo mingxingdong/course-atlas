@@ -10,9 +10,9 @@
     />
     <title>Course Atlas · Tübingen 2026/27</title>
     <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="style.css?v=20261018-arrow-position" />
-    <script src="data.js?v=20261020-programming-tutorials" defer></script>
-    <script src="app.js?v=20261018-mobile-default" defer></script>
+    <link rel="stylesheet" href="style.css?v=20261021-filter-labels" />
+    <script src="data.js?v=20261021-alma-sync" defer></script>
+    <script src="app.js?v=20261021-assigned-only" defer></script>
   </head>
   <body>
     <header class="masthead">
@@ -69,16 +69,20 @@
           /><kbd>/</kbd></label
         >
         <div class="filter-grid">
-          <label
-            >Programme<select id="programme">
-              <option value="">All programmes</option>
-              <option value="BA">Bachelor’s (BA)</option>
-              <option value="MA">Master’s (MA)</option>
-            </select></label
-          ><label
-            >Module<select id="module">
-              <option value="">All modules</option>
-            </select></label
+          <div class="module-filter-field">
+            <span id="programme-filter-label">Programme</span>
+            <details id="programme-filter" class="module-filter">
+              <summary id="programme-summary" aria-labelledby="programme-filter-label programme-summary">All programmes</summary>
+              <div id="programme" class="module-filter-menu" role="group" aria-label="Filter by programmes"></div>
+            </details>
+          </div
+          ><div class="module-filter-field">
+            <span id="module-filter-label">Module</span>
+            <details id="module-filter" class="module-filter">
+              <summary id="module-summary" aria-labelledby="module-filter-label module-summary">All modules</summary>
+              <div id="module" class="module-filter-menu" role="group" aria-label="Filter by modules"></div>
+            </details>
+          </div
           ><label
             >Session type<select id="kind">
               <option value="">All sessions</option>
@@ -128,6 +132,13 @@
             ><button id="agenda-view" aria-pressed="false">Agenda</button>
           </div>
         </div>
+        <details id="ects-planner" class="ects-planner" hidden>
+          <summary><span>My credits & modules <span id="ects-count"></span></span><strong id="ects-total">0 ECTS</strong><span class="ects-expand" aria-hidden="true">⌄</span></summary>
+          <div id="ects-list" class="ects-list"></div>
+          <p class="ects-note">Each course counts toward one module. Defaults use its first listed module; choose the module and assessment you intend to register.</p>
+          <div class="module-progress-heading"><h3>Planned module progress</h3><label><span class="sr-only">Module overview</span><select id="module-overview"><option value="assigned">Assigned modules</option></select></label></div>
+          <div id="module-progress" class="module-progress-grid"></div>
+        </details>
         <section class="week-toolbar" aria-label="Week navigation">
           <div>
             <span class="eyebrow" id="week-number">TEACHING WEEK 01</span>

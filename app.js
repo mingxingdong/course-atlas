@@ -805,7 +805,7 @@ function openDetail(id, series) {
       (a.weekday ?? 0) - (b.weekday ?? 0) || a.start.localeCompare(b.start),
   );
   $("#detail-content").innerHTML =
-    `<div class="detail-top"><span class="course-chip" style="--course:${c.color}">${esc([...new Set(c.series.map((s) => s.kind))].join(" + "))}</span><h2>${esc(c.name)}</h2></div><div class="detail-actions"><button class="button dark" id="detail-save">${selected.has(id) ? "✓ Saved · Remove course" : "+ Add to my timetable"}</button><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">View on ALMA ↗</a></div><h3 class="detail-heading">SESSIONS THIS SEMESTER</h3>${sorted
+    `<div class="detail-top"><span class="course-chip" style="--course:${c.color}">${esc([...new Set(c.series.map((s) => s.kind))].join(" + "))}</span><h2>${esc(c.name)}</h2></div><div class="detail-actions"><button class="button dark" id="detail-save">${selected.has(id) ? "✓ Saved · Remove course" : "+ Add to my timetable"}</button><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">View on ALMA ↗</a>${c.moodleUrl ? `<a href="${esc(c.moodleUrl)}" target="_blank" rel="noopener noreferrer">View on Moodle ↗</a>` : ""}</div><h3 class="detail-heading">SESSIONS THIS SEMESTER</h3>${sorted
       .map((s) => {
         const key = id + ":" + s.n,
           isChosen = selected.has(id) && tutorials.has(key);

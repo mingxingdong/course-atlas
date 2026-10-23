@@ -9,6 +9,7 @@ window.TIMETABLE_DATA = {
         { code: "ASW-BA-01", options: [{ qualifier: "", points: [3, 6] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45386&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1915",
       series: [
         {
           n: 1,
@@ -119,6 +120,7 @@ window.TIMETABLE_DATA = {
         { code: "ASW-BA-02", options: [{ qualifier: "", points: [3] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45383&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2082",
       series: [
         {
           n: 1,
@@ -182,6 +184,7 @@ window.TIMETABLE_DATA = {
         { code: "ASW-MA-01", options: [{ qualifier: "", points: [3] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45414&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1964",
       series: [
         {
           n: 1,
@@ -294,6 +297,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=46259&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2050",
       series: [
         {
           n: 1,
@@ -337,6 +341,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=46580&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1926",
       series: [
         {
           n: 5,
@@ -400,6 +405,7 @@ window.TIMETABLE_DATA = {
         { code: "ISCL-MA-02", options: [{ qualifier: "", points: [3] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=46581&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1979",
       series: [
         {
           n: 1,
@@ -472,6 +478,7 @@ window.TIMETABLE_DATA = {
         { code: "ISCL-MA-02", options: [{ qualifier: "Graded", points: [9] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=46584&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1980",
       series: [
         {
           n: 1,
@@ -606,6 +613,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101592&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2083",
       series: [
         {
           n: 1,
@@ -741,6 +749,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101567&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2052",
       series: [
         {
           n: 1,
@@ -881,6 +890,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101583&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2051",
       series: [
         {
           n: 1,
@@ -981,6 +991,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101589&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2028",
       series: [
         {
           n: 1,
@@ -1055,6 +1066,7 @@ window.TIMETABLE_DATA = {
         { code: "ISCL-MA-06", options: [{ qualifier: "", points: [3, 6, 9] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101569&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1919",
       series: [
         {
           n: 2,
@@ -1289,6 +1301,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=111953&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2055",
       series: [
         {
           n: 1,
@@ -1415,6 +1428,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=113280&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2058",
       series: [
         {
           n: 1,
@@ -1563,6 +1577,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101789&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1985",
       series: [
         {
           n: 1,
@@ -1600,6 +1615,7 @@ window.TIMETABLE_DATA = {
         { code: "ASW-MA-01", options: [{ qualifier: "Graded", points: [6] }] },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45412&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2000",
       series: [
         {
           n: 1,
@@ -1633,6 +1649,64 @@ window.TIMETABLE_DATA = {
           first: "2026-10-22",
           last: "2027-02-04",
         },
+        {
+          n: 3,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+          from: "2026-11-02",
+          to: "2027-02-01",
+          start: "16:00",
+          end: "18:00",
+          weekday: 1,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798416000000,
+            1799020800000
+          ],
+          first: "2026-11-02",
+          last: "2027-02-01"
+        },
+        {
+          n: 4,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "",
+          from: "2026-11-03",
+          to: "2027-02-02",
+          start: "14:00",
+          end: "16:00",
+          weekday: 2,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798502400000,
+            1799107200000
+          ],
+          first: "2026-11-03",
+          last: "2027-02-02"
+        },
+        {
+          n: 5,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+          from: "2026-11-05",
+          to: "2027-02-04",
+          start: "16:00",
+          end: "18:00",
+          weekday: 4,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798070400000,
+            1798675200000
+          ],
+          first: "2026-11-05",
+          last: "2027-02-04"
+        },
+
       ],
       note: "",
       color: "#f2e6cf",
@@ -1994,6 +2068,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=95851&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1963",
       series: [
         {
           n: 1,
@@ -2268,6 +2343,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101566&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2006",
       series: [
         {
           n: 1,
@@ -2392,6 +2468,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101568&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1912",
       series: [
         {
           n: 1,
@@ -2548,6 +2625,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101585&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1914",
       series: [
         {
           n: 1,
@@ -2814,6 +2892,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101587&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2007",
       series: [
         {
           n: 1,
@@ -3118,6 +3197,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=59700&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1989",
       series: [
         {
           n: 1,
@@ -3186,6 +3266,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=87533&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1999",
       series: [
         {
           n: 1,
@@ -3318,6 +3399,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101582&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1913",
       series: [
         {
           n: 1,
@@ -3442,6 +3524,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=101588&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1965",
       series: [
         {
           n: 1,
@@ -3566,6 +3649,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=88282&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1978",
       series: [
         {
           n: 1,
@@ -3667,6 +3751,7 @@ window.TIMETABLE_DATA = {
         },
       ],
       url: "https://alma.uni-tuebingen.de/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=45442&periodId=237&navigationPosition=courseoverviewShow",
+      moodleUrl: "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2036",
       series: [
         {
           n: 1,
@@ -12408,6 +12493,403 @@ window.TIMETABLE_DATA = {
       room: "Hörsaal H404 (Geographie (Hauptbau))",
       modifier: ""
     },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-11-02",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-11-09",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-11-16",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-11-23",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-11-30",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-12-07",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-12-14",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2026-12-21",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2027-01-11",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2027-01-18",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2027-01-25",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 3,
+      date: "2027-02-01",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-11-03",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-11-10",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-11-17",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-11-24",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-12-01",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-12-08",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-12-15",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2026-12-22",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2027-01-12",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2027-01-19",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2027-01-26",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 4,
+      date: "2027-02-02",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-11-05",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-11-12",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-11-19",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-11-26",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-12-03",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-12-10",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2026-12-17",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2027-01-07",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2027-01-14",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2027-01-21",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2027-01-28",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+    {
+      courseId: "45412",
+      series: 5,
+      date: "2027-02-04",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
+      modifier: ""
+    },
+
   ],
   weeks: [
     { name: "19 Oct", monday: "2026-10-19", events: 52, lastRow: 369 },
@@ -12429,5 +12911,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-22T10:23+02:00",
+  updated: "2026-10-23T11:04+02:00",
 };

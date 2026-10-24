@@ -12911,5 +12911,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-23T11:04+02:00",
+  updated: "2026-10-24T10:41+02:00",
 };

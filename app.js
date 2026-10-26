@@ -809,7 +809,7 @@ function openDetail(id, series) {
       .map((s) => {
         const key = id + ":" + s.n,
           isChosen = selected.has(id) && tutorials.has(key);
-        return `<div class="session ${Number(series) === s.n ? "event-highlight" : ""} ${s.kind === "Tutorial" && !isChosen ? "tutorial-session-choice" : ""}"><strong>${s.weekday === null ? "Block course" : esc(["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][s.weekday])} ${s.start}–${s.end}</strong><span class="session-type">${esc(s.kind)}</span><p>${esc(s.room)}<br>${esc(s.teacher)}</p><p class="period">${fmt(s.first, { day: "2-digit", month: "short", year: "numeric" })} – ${fmt(s.last, { day: "2-digit", month: "short", year: "numeric" })}${s.isBlock ? " · Specific dates" : ""}</p>${
+        return `<div class="session ${Number(series) === s.n ? "event-highlight" : ""} ${s.kind === "Tutorial" && !isChosen ? "tutorial-session-choice" : ""}"><strong>${s.weekday === null ? "Block course" : esc(["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][s.weekday])} ${s.start}–${s.end}</strong><span class="session-type">${esc(s.kind)}</span><p>${esc(s.room)}<br>${esc(s.teacher)}</p>${D.events.filter((e) => e.courseId === id && e.series === s.n && e.room !== s.room).map((e) => `<p class="period">${fmt(e.date, { day: "2-digit", month: "short", year: "numeric" })}: ${esc(e.room)}</p>`).join("")}<p class="period">${fmt(s.first, { day: "2-digit", month: "short", year: "numeric" })} – ${fmt(s.last, { day: "2-digit", month: "short", year: "numeric" })}${s.isBlock ? " · Specific dates" : ""}</p>${
           s.canceled.filter(
             (x) => iso(new Date(x)) >= s.first && iso(new Date(x)) <= s.last,
           ).length

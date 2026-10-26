@@ -1672,7 +1672,7 @@ window.TIMETABLE_DATA = {
           n: 4,
           kind: "Tutorial",
           teacher: "N.N.",
-          room: "",
+          room: "Hörsaal 23 (Kupferbau)",
           from: "2026-11-03",
           to: "2027-02-02",
           start: "14:00",
@@ -12633,7 +12633,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12644,7 +12644,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12655,7 +12655,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12666,7 +12666,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12677,7 +12677,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12688,7 +12688,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12699,7 +12699,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12710,7 +12710,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12721,7 +12721,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12732,7 +12732,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12743,7 +12743,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 23 (Kupferbau)",
       modifier: ""
     },
     {
@@ -12754,7 +12754,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "Hörsaal 09 (Neue Aula)",
       modifier: ""
     },
     {
@@ -12911,5 +12911,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-24T10:41+02:00",
+  updated: "2026-10-26T12:29+01:00",
 };

@@ -315,6 +315,45 @@ window.TIMETABLE_DATA = {
           first: "2026-10-19",
           last: "2027-02-01",
         },
+        {
+          n: 2,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "",
+          from: "2026-11-03",
+          to: "2027-02-02",
+          start: "18:00",
+          end: "20:00",
+          weekday: 2,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798502400000,
+            1799107200000
+          ],
+          first: "2026-11-03",
+          last: "2027-02-02"
+        },
+        {
+          n: 3,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "",
+          from: "2026-11-04",
+          to: "2027-02-03",
+          start: "18:00",
+          end: "20:00",
+          weekday: 3,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1797984000000,
+            1798588800000,
+            1799193600000
+          ],
+          first: "2026-11-04",
+          last: "2027-02-03"
+        }
       ],
       note: "",
       color: "#e6e1bf",
@@ -12889,7 +12928,259 @@ window.TIMETABLE_DATA = {
       room: "0.04 Seminarraum 1 (Nauklerstr. 35)",
       modifier: ""
     },
-
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-11-03",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-11-10",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-11-17",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-11-24",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-12-01",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-12-08",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-12-15",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2026-12-22",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2027-01-12",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2027-01-19",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2027-01-26",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 2,
+      date: "2027-02-02",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-11-04",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-11-11",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-11-18",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-11-25",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-12-02",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-12-09",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2026-12-16",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2027-01-13",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2027-01-20",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2027-01-27",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "46259",
+      series: 3,
+      date: "2027-02-03",
+      start: "18:00",
+      end: "20:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    }
   ],
   weeks: [
     { name: "19 Oct", monday: "2026-10-19", events: 52, lastRow: 369 },
@@ -12911,5 +13202,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-27T08:10+01:00",
+  updated: "2026-10-28T09:00+01:00",
 };

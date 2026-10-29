@@ -806,6 +806,25 @@ window.TIMETABLE_DATA = {
           first: "2026-10-19",
           last: "2027-02-01",
         },
+        {
+          n: 2,
+          kind: "Advanced Seminar",
+          teacher: "Dr.-Ing. Besim Kabashi",
+          room: "",
+          from: "2026-11-02",
+          to: "2027-02-01",
+          start: "18:00",
+          end: "20:00",
+          weekday: 1,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798416000000,
+            1799020800000
+          ],
+          first: "2026-11-02",
+          last: "2027-02-01"
+        }
       ],
       note: "",
       color: "#f6d9cb",
@@ -13180,6 +13199,138 @@ window.TIMETABLE_DATA = {
       teacher: "N.N.",
       room: "",
       modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-11-02",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-11-09",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-11-16",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-11-23",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-11-30",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-12-07",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-12-14",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2026-12-21",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2027-01-11",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2027-01-18",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2027-01-25",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "101567",
+      series: 2,
+      date: "2027-02-01",
+      start: "18:00",
+      end: "20:00",
+      kind: "Advanced Seminar",
+      teacher: "Dr.-Ing. Besim Kabashi",
+      room: "",
+      modifier: ""
     }
   ],
   weeks: [
@@ -13202,5 +13353,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-28T09:00+01:00",
+  updated: "2026-10-29T09:09+01:00",
 };

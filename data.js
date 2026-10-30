@@ -319,7 +319,7 @@ window.TIMETABLE_DATA = {
           n: 2,
           kind: "Tutorial",
           teacher: "N.N.",
-          room: "",
+          room: "S229 (Hölderlinstraße/Sigwartstraße)",
           from: "2026-11-03",
           to: "2027-02-02",
           start: "18:00",
@@ -338,7 +338,7 @@ window.TIMETABLE_DATA = {
           n: 3,
           kind: "Tutorial",
           teacher: "N.N.",
-          room: "",
+          room: "S229 (Hölderlinstraße/Sigwartstraße)",
           from: "2026-11-04",
           to: "2027-02-03",
           start: "18:00",
@@ -810,7 +810,7 @@ window.TIMETABLE_DATA = {
           n: 2,
           kind: "Advanced Seminar",
           teacher: "Dr.-Ing. Besim Kabashi",
-          room: "",
+          room: "Seminarraum 301 (Lothar-Meyer-Bau)",
           from: "2026-11-02",
           to: "2027-02-01",
           start: "18:00",
@@ -1819,6 +1819,44 @@ window.TIMETABLE_DATA = {
           first: "2026-10-21",
           last: "2027-02-03",
         },
+        {
+          n: 3,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "",
+          from: "2026-11-03",
+          to: "2027-02-02",
+          start: "14:00",
+          end: "16:00",
+          weekday: 2,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798502400000,
+            1799107200000
+          ],
+          first: "2026-11-03",
+          last: "2027-02-02"
+        },
+        {
+          n: 4,
+          kind: "Tutorial",
+          teacher: "N.N.",
+          room: "S227 (Hölderlinstraße/Sigwartstraße)",
+          from: "2026-11-06",
+          to: "2027-02-05",
+          start: "10:00",
+          end: "12:00",
+          weekday: 5,
+          isBlock: false,
+          modifier: "",
+          canceled: [
+            1798156800000,
+            1798761600000
+          ],
+          first: "2026-11-06",
+          last: "2027-02-05"
+        }
       ],
       note: "",
       color: "#b4f1ef",
@@ -12955,7 +12993,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -12966,7 +13004,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -12977,7 +13015,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -12988,7 +13026,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -12999,7 +13037,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13010,7 +13048,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13021,7 +13059,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13032,7 +13070,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13043,7 +13081,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13054,7 +13092,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13065,7 +13103,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13076,7 +13114,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13087,7 +13125,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13098,7 +13136,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13109,7 +13147,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13120,7 +13158,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13131,7 +13169,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13142,7 +13180,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13153,7 +13191,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13164,7 +13202,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13175,7 +13213,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13186,7 +13224,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13197,7 +13235,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Tutorial",
       teacher: "N.N.",
-      room: "",
+      room: "S229 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     },
     {
@@ -13208,7 +13246,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13219,7 +13257,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13230,7 +13268,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13241,7 +13279,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13252,7 +13290,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13263,7 +13301,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13274,7 +13312,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13285,7 +13323,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13296,7 +13334,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13307,7 +13345,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13318,7 +13356,7 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
-      room: "",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
       modifier: ""
     },
     {
@@ -13329,7 +13367,271 @@ window.TIMETABLE_DATA = {
       end: "20:00",
       kind: "Advanced Seminar",
       teacher: "Dr.-Ing. Besim Kabashi",
+      room: "Seminarraum 301 (Lothar-Meyer-Bau)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-03",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
       room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-10",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-17",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-24",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-01",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-08",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-15",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-22",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-12",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-19",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-26",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-02-02",
+      start: "14:00",
+      end: "16:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-11-06",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-11-13",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-11-20",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-11-27",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-12-04",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-12-11",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2026-12-18",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2027-01-08",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2027-01-15",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2027-01-22",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2027-01-29",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 4,
+      date: "2027-02-05",
+      start: "10:00",
+      end: "12:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "S227 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
     }
   ],
@@ -13353,5 +13655,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-29T09:09+01:00",
+  updated: "2026-10-30T09:27+01:00",
 };

@@ -1797,9 +1797,13 @@ window.TIMETABLE_DATA = {
           weekday: 2,
           isBlock: false,
           modifier: "",
-          canceled: [1791849600000, 1798502400000, 1799107200000],
+          canceled: [
+            1791849600000,
+            1798502400000,
+            1799107200000
+          ],
           first: "2026-10-20",
-          last: "2027-02-02",
+          last: "2027-02-02"
         },
         {
           n: 2,
@@ -1814,29 +1818,32 @@ window.TIMETABLE_DATA = {
           isBlock: false,
           modifier: "",
           canceled: [
-            1791936000000, 1797984000000, 1798588800000, 1799193600000,
+            1791936000000,
+            1797984000000,
+            1798588800000,
+            1799193600000
           ],
           first: "2026-10-21",
-          last: "2027-02-03",
+          last: "2027-02-03"
         },
         {
           n: 3,
           kind: "Tutorial",
           teacher: "N.N.",
-          room: "",
-          from: "2026-11-03",
-          to: "2027-02-02",
-          start: "14:00",
-          end: "16:00",
-          weekday: 2,
+          room: "Hörsaal H404 (Geographie (Hauptbau))",
+          from: "2026-11-09",
+          to: "2027-02-01",
+          start: "16:00",
+          end: "18:00",
+          weekday: 1,
           isBlock: false,
           modifier: "",
           canceled: [
-            1798502400000,
-            1799107200000
+            1798416000000,
+            1799020800000
           ],
-          first: "2026-11-03",
-          last: "2027-02-02"
+          first: "2026-11-09",
+          last: "2027-02-01"
         },
         {
           n: 4,
@@ -4182,7 +4189,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Seminar",
       teacher: "Dr. phil. Inna Stupak",
-      room: "Hörsaal 0.02 (VG Wilhelmstraße - SSC (Student Service Center))",
+      room: "Hörsaal 22 (Kupferbau)",
       modifier: "",
     },
     {
@@ -4259,7 +4266,7 @@ window.TIMETABLE_DATA = {
       end: "16:00",
       kind: "Seminar",
       teacher: "Dr. phil. Inna Stupak",
-      room: "Hörsaal 0.02 (VG Wilhelmstraße - SSC (Student Service Center))",
+      room: "Hörsaal 22 (Kupferbau)",
       modifier: "",
     },
     {
@@ -8846,7 +8853,7 @@ window.TIMETABLE_DATA = {
       end: "14:00",
       kind: "Seminar",
       teacher: "Dr. phil. Johannes Dellert",
-      room: "Hörsaal 0.02 (VG Wilhelmstraße - SSC (Student Service Center))",
+      room: "Hörsaal 25 (Kupferbau)",
       modifier: "",
     },
     {
@@ -8923,7 +8930,7 @@ window.TIMETABLE_DATA = {
       end: "14:00",
       kind: "Seminar",
       teacher: "Dr. phil. Johannes Dellert",
-      room: "Hörsaal 0.02 (VG Wilhelmstraße - SSC (Student Service Center))",
+      room: "AUDIMAX (Neue Aula)",
       modifier: "",
     },
     {
@@ -9220,7 +9227,7 @@ window.TIMETABLE_DATA = {
       end: "18:00",
       kind: "Seminar",
       teacher: "PD Dr. phil. Katja Hannß",
-      room: "Hörsaal 0.02 (VG Wilhelmstraße - SSC (Student Service Center))",
+      room: "Hörsaal 211 (Theologicum Bibliothek)",
       modifier: "",
     },
     {
@@ -13372,138 +13379,6 @@ window.TIMETABLE_DATA = {
     },
     {
       courseId: "45434",
-      series: 3,
-      date: "2026-11-03",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-11-10",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-11-17",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-11-24",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-12-01",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-12-08",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-12-15",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2026-12-22",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2027-01-12",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2027-01-19",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2027-01-26",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
-      series: 3,
-      date: "2027-02-02",
-      start: "14:00",
-      end: "16:00",
-      kind: "Tutorial",
-      teacher: "N.N.",
-      room: "",
-      modifier: ""
-    },
-    {
-      courseId: "45434",
       series: 4,
       date: "2026-11-06",
       start: "10:00",
@@ -13633,6 +13508,127 @@ window.TIMETABLE_DATA = {
       teacher: "N.N.",
       room: "S227 (Hölderlinstraße/Sigwartstraße)",
       modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-09",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-16",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-23",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-11-30",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-07",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-14",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2026-12-21",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-11",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-18",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-01-25",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
+    },
+    {
+      courseId: "45434",
+      series: 3,
+      date: "2027-02-01",
+      start: "16:00",
+      end: "18:00",
+      kind: "Tutorial",
+      teacher: "N.N.",
+      room: "Hörsaal H404 (Geographie (Hauptbau))",
+      modifier: ""
     }
   ],
   weeks: [
@@ -13655,5 +13651,5 @@ window.TIMETABLE_DATA = {
     { name: "08 Feb", monday: "2027-02-08", events: 8, lastRow: 79 },
     { name: "15 Feb", monday: "2027-02-15", events: 8, lastRow: 79 },
   ],
-  updated: "2026-10-30T09:27+01:00",
+  updated: "2026-11-07T10:52+01:00",
 };
